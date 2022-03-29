@@ -1,0 +1,9 @@
+package com.flightapp.admin.iservice;
+
+import com.flightapp.admin.model.AirlineInventoryModel;
+
+public interface IInventoryService {
+	
+	public Integer addInventory(AirlineInventoryModel airlineInventory);
+	
+}

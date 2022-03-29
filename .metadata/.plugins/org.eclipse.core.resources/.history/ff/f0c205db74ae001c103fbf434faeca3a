@@ -1,0 +1,11 @@
+package com.flightapp.respository;
+
+import javax.persistence.criteria.CriteriaBuilder.In;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.flightapp.entity.User;
+
+public interface UserRepository extends JpaRepository<User, Integer>{
+
+}

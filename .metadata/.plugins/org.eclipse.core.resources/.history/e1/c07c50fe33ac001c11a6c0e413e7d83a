@@ -1,0 +1,9 @@
+package com.flightapp.admin.iservice;
+
+public interface IAirlineService {
+	
+	private Integer registerAirline();
+	
+	private String toggleBlock();
+
+}

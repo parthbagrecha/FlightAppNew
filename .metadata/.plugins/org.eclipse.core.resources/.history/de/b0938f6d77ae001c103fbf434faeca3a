@@ -1,0 +1,11 @@
+package com.flightapp.iservice;
+
+import org.springframework.http.ResponseEntity;
+
+import com.flightapp.entity.User;
+
+public interface IUserService {
+	
+	public ResponseEntity<?> createUser(User newUser);
+
+}

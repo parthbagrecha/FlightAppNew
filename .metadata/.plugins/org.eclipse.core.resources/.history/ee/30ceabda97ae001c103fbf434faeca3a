@@ -1,0 +1,43 @@
+package com.flightapp.admin.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.flightapp.admin.entity.AirlineInventory;
+import com.flightapp.admin.entity.AirlineMaster;
+import com.flightapp.admin.iservice.IInventoryService;
+import com.flightapp.admin.model.AirlineInventoryModel;
+import com.flightapp.admin.repository.AirlineRepository;
+import com.flightapp.admin.repository.InventoryRepository;
+
+@Service
+public class InventoryService implements IInventoryService {
+
+	@Autowired
+	InventoryRepository inventoryRepository;
+	
+	@Autowired
+	AirlineRepository airlineRepository;
+
+	@Override
+	public Integer addInventory(AirlineInventoryModel airlineInventoryModel) {
+		try {
+			AirlineInventory airlineInventory = new AirlineInventory();
+			
+			Optional<AirlineMaster> airline = airlineRepository.findById(airlineInventoryModel.getAirlineId());
+			id (airline.isEmpty()){
+				
+				throw new Exception("Airline with the id doesnt exist");
+			}
+			
+			airlineInventory = inventoryRepository.save(airlineInventory);
+			return airlineInventory.getInventoryId();
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw e;
+		}
+	}
+
+}

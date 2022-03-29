@@ -1,0 +1,7 @@
+package com.flightapp.admin.service;
+
+import com.flightapp.admin.iservice.IAirlineService;
+
+public class AirlineService implements IAirlineService {
+
+}

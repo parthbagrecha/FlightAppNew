@@ -1,0 +1,33 @@
+package com.flightapp.admin.model;
+
+import java.time.LocalDateTime;
+
+public class AirlinrInventoryModel {
+
+	private Integer airlineId;
+
+	private String airlineName;
+
+	private String fromPlace;
+
+	private String toPlace;
+
+	private LocalDateTime startDateTime;
+
+	private LocalDateTime endDateTime;
+
+	private String scheduleDays;
+
+	private String instrument;
+
+	private Integer businessClassSeats;
+
+	private Integer nonBusinessClassSeats;
+
+	private Integer cost;
+
+	private Integer rows;
+
+	private String meal;
+
+}

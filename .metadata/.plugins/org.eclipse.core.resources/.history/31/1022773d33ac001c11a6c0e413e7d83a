@@ -1,0 +1,5 @@
+package com.flightapp.admin.iservice;
+
+public class IAirlineService {
+
+}

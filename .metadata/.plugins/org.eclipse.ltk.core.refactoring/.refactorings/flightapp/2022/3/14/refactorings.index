@@ -1,0 +1,11 @@
+1648458611348	Rename package 'com.flightapp.exceptions'
+1648458617348	Copy package
+1648472449365	Rename type 'AirlinrInventoryModel'
+1648533054606	Rename package 'com.flightapp.admin'
+1648533062528	Rename package 'com.flightapp.admin.controller'
+1648533069106	Rename package 'com.flightapp.admin.entity'
+1648533075637	Rename package 'com.flightapp.admin.exceptions'
+1648533081293	Rename package 'com.flightapp.admin.iservice'
+1648533086950	Rename package 'com.flightapp.admin.model'
+1648533093840	Rename package 'com.flightapp.admin.repository'
+1648533100637	Rename package 'com.flightapp.admin.service'

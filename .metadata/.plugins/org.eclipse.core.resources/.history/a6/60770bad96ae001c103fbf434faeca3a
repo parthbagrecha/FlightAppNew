@@ -1,0 +1,135 @@
+package com.flightapp.admin.model;
+
+import java.time.LocalDateTime;
+
+public class AirlinrInventoryModel {
+
+	private Integer airlineId;
+
+	private String instrument;
+
+	private String fromPlace;
+
+	private String toPlace;
+
+	private LocalDateTime startDateTime;
+
+	private LocalDateTime endDateTime;
+
+	private String scheduleDays;
+
+	private Integer businessClassSeats;
+
+	private Integer nonBusinessClassSeats;
+
+	private Integer cost;
+
+	private Integer rows;
+
+	private String meal;
+
+	public Integer getAirlineId() {
+		return airlineId;
+	}
+
+	public void setAirlineId(Integer airlineId) {
+		this.airlineId = airlineId;
+	}
+
+	public String getAirlineName() {
+		return airlineName;
+	}
+
+	public void setAirlineName(String airlineName) {
+		this.airlineName = airlineName;
+	}
+
+	public String getFromPlace() {
+		return fromPlace;
+	}
+
+	public void setFromPlace(String fromPlace) {
+		this.fromPlace = fromPlace;
+	}
+
+	public String getToPlace() {
+		return toPlace;
+	}
+
+	public void setToPlace(String toPlace) {
+		this.toPlace = toPlace;
+	}
+
+	public LocalDateTime getStartDateTime() {
+		return startDateTime;
+	}
+
+	public void setStartDateTime(LocalDateTime startDateTime) {
+		this.startDateTime = startDateTime;
+	}
+
+	public LocalDateTime getEndDateTime() {
+		return endDateTime;
+	}
+
+	public void setEndDateTime(LocalDateTime endDateTime) {
+		this.endDateTime = endDateTime;
+	}
+
+	public String getScheduleDays() {
+		return scheduleDays;
+	}
+
+	public void setScheduleDays(String scheduleDays) {
+		this.scheduleDays = scheduleDays;
+	}
+
+	public String getInstrument() {
+		return instrument;
+	}
+
+	public void setInstrument(String instrument) {
+		this.instrument = instrument;
+	}
+
+	public Integer getBusinessClassSeats() {
+		return businessClassSeats;
+	}
+
+	public void setBusinessClassSeats(Integer businessClassSeats) {
+		this.businessClassSeats = businessClassSeats;
+	}
+
+	public Integer getNonBusinessClassSeats() {
+		return nonBusinessClassSeats;
+	}
+
+	public void setNonBusinessClassSeats(Integer nonBusinessClassSeats) {
+		this.nonBusinessClassSeats = nonBusinessClassSeats;
+	}
+
+	public Integer getCost() {
+		return cost;
+	}
+
+	public void setCost(Integer cost) {
+		this.cost = cost;
+	}
+
+	public Integer getRows() {
+		return rows;
+	}
+
+	public void setRows(Integer rows) {
+		this.rows = rows;
+	}
+
+	public String getMeal() {
+		return meal;
+	}
+
+	public void setMeal(String meal) {
+		this.meal = meal;
+	}
+
+}

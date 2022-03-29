@@ -1,0 +1,49 @@
+package com.flightapp.admin.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "airline_master")
+public class AirlineMaster {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "airline_id")
+	private Integer airlineId;
+
+	@Column(name = "airline_name")
+	private String airlineName;
+
+	@Column(name = "is_blocked")
+	private String isBlocked;
+
+	public Integer getAirlineId() {
+		return airlineId;
+	}
+
+	public void setAirlineId(Integer airlineId) {
+		this.airlineId = airlineId;
+	}
+
+	public String getAirlineName() {
+		return airlineName;
+	}
+
+	public void setAirlineName(String airlineName) {
+		this.airlineName = airlineName;
+	}
+
+	public String getIsBlocked() {
+		return isBlocked;
+	}
+
+	public void setIsBlocked(String isBlocked) {
+		this.isBlocked = isBlocked;
+	}
+
+}

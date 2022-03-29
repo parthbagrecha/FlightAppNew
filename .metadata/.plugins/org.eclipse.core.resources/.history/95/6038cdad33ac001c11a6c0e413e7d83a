@@ -1,0 +1,7 @@
+package com.flightapp.admin.iservice;
+
+public interface IInventoryService {
+	
+	privte Integer addInventory();
+
+}
