@@ -1,0 +1,19 @@
+package com.flightapp.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.flightapp.iservice.IBookingService;
+import com.flightapp.model.BooikingInputModel;
+import com.flightapp.model.Ticket;
+
+@Service
+public class BookingService implements IBookingService{
+
+	@Override
+	public List<Ticket> createBooking(BooikingInputModel bookingInput) {
+		return null;
+	}
+
+}

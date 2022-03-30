@@ -1,0 +1,11 @@
+package com.flightapp.model;
+
+import java.util.List;
+
+public class BooikingInputModel {
+
+	private Integer inventoryId;
+	private Integer noOfSeats;
+	private List<PassengerDetails> passengerDetails;
+
+}

@@ -1,0 +1,11 @@
+package com.flightapp.model;
+
+import java.time.LocalDateTime;
+
+public class FlightModel {
+	
+	private LocalDateTime dateTime;
+	private String fromPlace;
+	private toPlace;
+
+}

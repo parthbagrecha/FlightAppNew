@@ -1,0 +1,7 @@
+package com.flightapp.model;
+
+public class Ticket {
+	
+	private Integer
+
+}

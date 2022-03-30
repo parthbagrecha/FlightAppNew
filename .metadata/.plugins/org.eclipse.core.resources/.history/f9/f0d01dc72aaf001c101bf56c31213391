@@ -1,0 +1,32 @@
+package com.flightapp.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.flightapp.entity.AirlineInventory;
+import com.flightapp.iservice.IFlightService;
+import com.flightapp.model.FlightModel;
+import com.flightapp.repository.InventoryRepository;
+
+public class FlightService implements IFlightService {
+
+	@Autowired
+	InventoryRepository inventoryRepository;
+
+	@Override
+	public Iterable<AirlineInventory> viewAllFlight() {
+		return inventoryRepository.findAll();
+	}
+
+	@Override
+	public List<AirlineInventory> viewFlight(FlightModel flightModel) {
+		if (flightModel.getFromPlace().equals(null)
+				&& (flightModel.getDateTime().equals(null) || flightModel.getToPlace().equals(null))) {
+			throw new Exception("Please Enter From-Place and either To-Place or Date-Time");
+		}
+
+			return null;
+	}
+
+}

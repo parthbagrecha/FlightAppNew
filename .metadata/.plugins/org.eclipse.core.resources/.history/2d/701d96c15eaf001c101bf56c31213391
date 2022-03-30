@@ -1,0 +1,10 @@
+package com.flightapp.repository;
+
+import org.springframework.stereotype.Repository;
+
+import com.flightapp.entity.Booking;
+
+@Repository
+public class BookingRepository extends JpaRepository<Booking, Integer> {
+
+}

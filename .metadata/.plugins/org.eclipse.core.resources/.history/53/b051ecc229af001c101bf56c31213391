@@ -1,0 +1,23 @@
+package com.flightapp.service;
+
+import java.util.List;
+
+import com.flightapp.entity.AirlineInventory;
+import com.flightapp.iservice.IFlightService;
+import com.flightapp.model.FlightModel;
+
+public class FlightService implements IFlightService {
+
+	@Override
+	public Iterable<AirlineInventory> viewAllFlight() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<AirlineInventory> viewFlight(FlightModel flightModel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

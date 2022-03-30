@@ -1,0 +1,44 @@
+package com.flightapp.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.flightapp.entity.AirlineInventory;
+import com.flightapp.iservice.IFlightService;
+import com.flightapp.model.FlightModel;
+import com.flightapp.repository.InventoryRepository;
+
+@Service
+public class FlightService implements IFlightService {
+
+	@Autowired
+	InventoryRepository inventoryRepository;
+
+	@Override
+	public Iterable<AirlineInventory> viewAllFlight() {
+		return inventoryRepository.findAll();
+	}
+
+	@Override
+	public List<AirlineInventory> viewFlight(FlightModel flightModel) throws Exception {
+		if (flightModel.getFromPlace().equals(null)
+				&& (flightModel.getDateTime().equals(null) || flightModel.getToPlace().equals(null))) {
+			throw new Exception("Please Enter From-Place and either To-Place or Date-Time");
+		}
+		return null;
+//		if (!flightModel.getDateTime().equals(null)) {
+			
+//			Timestamp timestamp = Timestamp.valueOf(flightModel.getDateTime().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+//			Date date = new Date(timestamp.getTime());
+//			System.out.println(date); 
+			
+//			return inventoryRepository.getInventoryByDateTime(flightModel.getFromPlace(), flightModel.getDateTime());
+//		}
+//		else {
+//			return inventoryRepository.getInventoryByLocation(flightModel.getFromPlace(), flightModel.getToPlace());
+//		}
+	}
+
+}

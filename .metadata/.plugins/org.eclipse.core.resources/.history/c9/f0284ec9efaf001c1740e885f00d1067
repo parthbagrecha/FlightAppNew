@@ -1,0 +1,52 @@
+package com.flightapp.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.flightapp.entity.Booking;
+import com.flightapp.iservice.IBookingService;
+import com.flightapp.model.BooikingInputModel;
+import com.flightapp.model.PassengerDetails;
+import com.flightapp.model.Ticket;
+import com.flightapp.repository.BookingRepository;
+
+@Service
+public class BookingService implements IBookingService {
+
+	@Autowired
+	BookingRepository bookingRepository;
+
+	@Override
+	public List<Ticket> createBooking(BooikingInputModel bookingInput) throws Exception {
+		if (bookingInput.getNoOfSeats() != bookingInput.getPassengerDetails().size()) {
+			throw new Exception("Please enter correct no of Passengers");
+		}
+		
+		List<Ticket> ticketList = new ArrayList<>();
+		
+		for (PassengerDetails passenger : bookingInput.getPassengerDetails()) {
+			Booking booking = new Booking();
+			booking.setInventoryId(bookingInput.getInventoryId());
+			booking.setPassengerName(passenger.getpName());
+			booking.setPassengerGender(passenger.getpGender());
+			booking.setPassengerAge(passenger.getpAge());
+			booking.setSeatNo(passenger.getSeatNo());
+			booking.setMeal(passenger.getMeal());
+
+			booking = bookingRepository.save(booking);
+
+			Ticket ticket = new Ticket(booking.getPnr(), passenger);
+			ticketList.add(ticket);
+		}
+		return ticketList;
+	}
+
+	@Override
+	public Booking getBooking(Integer pnr) {
+		return bookingRepository.getById(pnr);
+	}
+
+}

@@ -1,0 +1,35 @@
+package com.flightapp.model;
+
+import java.math.BigInteger;
+
+public class Ticket {
+	
+	private BigInteger pnr;
+	private String seatNo;
+	private PassengerDetails passenger;
+
+	public BigInteger getPnr() {
+		return pnr;
+	}
+
+	public void setPnr(BigInteger pnr) {
+		this.pnr = pnr;
+	}
+
+	public String getSeatNo() {
+		return seatNo;
+	}
+
+	public void setSeatNo(String seatNo) {
+		this.seatNo = seatNo;
+	}
+
+	public PassengerDetails getPassenger() {
+		return passenger;
+	}
+
+	public void setPassenger(PassengerDetails passenger) {
+		this.passenger = passenger;
+	}
+
+}

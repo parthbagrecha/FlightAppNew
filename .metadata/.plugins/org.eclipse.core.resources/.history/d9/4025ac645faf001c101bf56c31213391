@@ -1,0 +1,11 @@
+package com.flightapp.model;
+
+public class PassengerDetails {
+
+	private String pName;
+	private String pGender;
+	private Integer pAge;
+	private String seatNo;
+	private String meal;
+
+}

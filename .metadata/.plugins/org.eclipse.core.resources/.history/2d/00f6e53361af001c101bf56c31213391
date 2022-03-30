@@ -1,0 +1,32 @@
+package com.flightapp.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.flightapp.entity.Booking;
+import com.flightapp.iservice.IBookingService;
+import com.flightapp.model.BooikingInputModel;
+import com.flightapp.model.PassengerDetails;
+import com.flightapp.model.Ticket;
+import com.flightapp.repository.BookingRepository;
+
+@Service
+public class BookingService implements IBookingService{
+	
+	@Autowired
+	BookingRepository bookingRepository;
+
+	@Override
+	public List<Ticket> createBooking(BooikingInputModel bookingInput) {
+		List<Booking> bookingList = new ArrayList<>();
+		
+		for(PassengerDetails passenger : bookingInput.getPassengerDetails()) {
+			
+		}
+//		bookingRepository.save(entity)
+	}
+
+}

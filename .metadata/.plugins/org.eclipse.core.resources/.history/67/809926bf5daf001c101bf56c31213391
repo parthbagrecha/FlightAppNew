@@ -1,0 +1,45 @@
+package com.flightapp.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "booking")
+public class Booking {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "booking_id")
+	private Integer bookingId;
+	
+	@Column(name = "inventory_id")
+	private Integer inventory_id;
+	
+	@Column(name = "name")
+	private String name;
+	
+	@Column(name = "email")
+	private String email;
+	
+	@Column(name = "p_name")
+	private Sgtring passengerName;
+	
+	@Column(name = "p_gender")
+	private String passengerGender
+	
+	@Column(name = "p_age")
+	private Integer passenger age;
+	
+	@Column(name = "seat_no")
+	private String seatNo;
+	
+	
+	
+	
+}
+
+//    

@@ -1,0 +1,30 @@
+package com.flightapp.repository;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import com.flightapp.entity.AirlineInventory;
+
+@Repository
+public interface InventoryRepository extends JpaRepository<AirlineInventory, Integer> {
+
+//	@Transactional
+//	@Modifying
+//	@Query(value = "INSERT INTO airline_inventory\r\n"
+//			+ "(airline_id, airline_name, from_place, to_place, start_date_time, end_date_time, schedule_days, instrument, business_class_seats, non_business_class_seats, cost, rows_of_seats, meal) \r\n"
+//			+ "VALUES \r\n" + "(?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13)", nativeQuery = true)
+//	public void addInventory(Integer airlineId, String airlineName, String fromPlace, String toPlace,
+//			LocalDateTime startDateTime, LocalDateTime endDateTime, String scheduleDays, String instrument,
+//			Integer businessClassSeats, Integer nonBusinessClassSeats, Integer cost, Integer rows, String meal);
+
+	@Query(value = "SELECT * FROM airline_inventory where from_place = ?1 start_date_time between \"?2\" and \"?3\";", nativeQuery = true)
+	public List<AirlineInventory> getInventoryByDateTime(String fromPlace, LocalDateTime dateTime);
+
+	@Query(value = "", nativeQuery = true)
+	public List<AirlineInventory> getInventoryByLocation(String fromPlace, String toPlace);
+
+}
