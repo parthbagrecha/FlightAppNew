@@ -14,39 +14,24 @@ import javax.persistence.Table;
 public class User {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "user_id")
-	private Integer userId;
-	
-	@Column(name = "user_type")
-	private String userType;
-	
-	@Column(name = "user_name")
-	private String userName;
-	
-	@Column(name = "user_password")
-	private String userPassword;
-	
-	@Column(name = "user_phone")
-	private BigInteger userPhone;
-	
 	@Column(name = "user_email")
 	private String userEmail;
 
-	public Integer getUserId() {
-		return userId;
+	@Column(name = "user_name")
+	private String userName;
+
+	@Column(name = "user_password")
+	private String userPassword;
+
+	@Column(name = "user_phone")
+	private BigInteger userPhone;
+
+	public String getUserEmail() {
+		return userEmail;
 	}
 
-	public void setUserId(Integer userId) {
-		this.userId = userId;
-	}
-
-	public String getUserType() {
-		return userType;
-	}
-
-	public void setUserType(String userType) {
-		this.userType = userType;
+	public void setUserEmail(String userEmail) {
+		this.userEmail = userEmail;
 	}
 
 	public String getUserName() {
@@ -71,14 +56,6 @@ public class User {
 
 	public void setUserPhone(BigInteger userPhone) {
 		this.userPhone = userPhone;
-	}
-
-	public String getUserEmail() {
-		return userEmail;
-	}
-
-	public void setUserEmail(String userEmail) {
-		this.userEmail = userEmail;
 	}
 
 }

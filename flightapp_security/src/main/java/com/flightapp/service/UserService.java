@@ -8,43 +8,80 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.flightapp.entity.User;
-import com.flightapp.exceptions.RecordAlreadyPresentException;
-import com.flightapp.exceptions.RecordNotFoundException;
 import com.flightapp.iservice.IUserService;
+import com.flightapp.model.AuthenticateResponse;
 import com.flightapp.respository.UserRepository;
 
 @Service
 public class UserService implements IUserService {
 
 	@Autowired
+	private JwtUtil jwtutil;
+
+	@Autowired
 	UserRepository userRepository;
 
 	@Override
-	public ResponseEntity<?> createUser(User newUser) {
-//		Optional<User> findUserById = userRepository.findById(newUser.getUserId());
-//		try {
-//			if (!findUserById.isPresent()) {
-			userRepository.save(newUser);
-			return new ResponseEntity<User>(newUser, HttpStatus.OK);
-//			} else
-//				throw new RecordAlreadyPresentException("User with Id: " + newUser.getUserId() + " already exists!!");
-//		} catch (Exception e) {
-//			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//		}
+	public ResponseEntity<?> createUser(User newUser) throws Exception {
+		Optional<User> user = userRepository.findById(newUser.getUserEmail());
+		if (user.isEmpty()) {
+			try {
+				userRepository.save(newUser);
+				return new ResponseEntity<>("User Added Successfully", HttpStatus.CREATED);
+			} catch (Exception ex) {
+				throw new Exception("User with email already Exists");
+			}
+		} else {
+			throw new Exception("User with email already Exists");
+		}
 	}
 
 	@Override
-	public ResponseEntity<?> findUserById(Integer userId) {
-		Optional<User> findById = userRepository.findById(userId);
+	public ResponseEntity<AuthenticateResponse> userLogin(User loginDetails) throws Exception {
 		try {
-			if (findById.isPresent()) {
-				User findUser = findById.get();
-				return new ResponseEntity<User>(findUser, HttpStatus.OK);
-			} else
-				throw new RecordNotFoundException("No record found with ID " + userId);
-		} catch (RecordNotFoundException e) {
-			return new ResponseEntity(e.getMessage(), HttpStatus.NOT_FOUND);
+			final Optional<User> userDetails = userRepository.findById(loginDetails.getUserEmail());
+			if (userDetails.isEmpty()) {
+				throw new Exception("User not found.");
+			}
+			String uid = "";
+			String generateToken = "";
+			User user = userDetails.get();
+			if (user.getUserPassword().equals(loginDetails.getUserPassword())) {
+				uid = loginDetails.getUserEmail();
+				generateToken = jwtutil.generateToken(user);
+
+				return new ResponseEntity<>(new AuthenticateResponse(uid, true, generateToken), HttpStatus.OK);
+			} else {
+				return new ResponseEntity<>(
+						new AuthenticateResponse(loginDetails.getUserEmail(), false, "In Correct Password"),
+						HttpStatus.FORBIDDEN);
+			}
+		} catch (Exception e) {
+			throw new Exception("User doesnt exist");
 		}
+	}
+	
+	
+	@Override
+	public ResponseEntity<AuthenticateResponse> validate(String authToken) {
+		String token1 = authToken.substring(7);
+		AuthenticateResponse res = new AuthenticateResponse();
+		if (Boolean.TRUE.equals(jwtutil.validateToken(token1))) {
+			res.setUsername(jwtutil.extractUsername(token1));
+			res.setValid(true);
+			Optional<User> user1 = userRepository.findById(jwtutil.extractUsername(token1));
+			if (user1.isPresent()) {
+				res.setUsername(user1.get().getUserEmail());
+				res.setValid(true);
+				res.setToken("token successfully validated");
+
+			}
+		} else {
+			res.setValid(false);
+			res.setToken("Invalid Token Received");
+
+		}
+		return new ResponseEntity<>(res, HttpStatus.OK);
 	}
 
 }

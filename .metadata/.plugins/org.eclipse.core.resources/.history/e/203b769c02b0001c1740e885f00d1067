@@ -1,0 +1,72 @@
+package com.flightapp.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import com.flightapp.entity.User;
+import com.flightapp.exceptions.RecordNotFoundException;
+import com.flightapp.iservice.IUserService;
+import com.flightapp.model.AuthenticateResponse;
+import com.flightapp.respository.UserRepository;
+
+@Service
+public class UserService implements IUserService {
+	
+	@Autowired
+	private JwtUtil jwtutil;
+
+	@Autowired
+	UserRepository userRepository;
+
+	@Override
+	public ResponseEntity<?> createUser(User newUser) throws Exception {
+		Optional<User> user = userRepository.findByEmail(newUser.getUserEmail());
+		if (user.isEmpty()) {
+			try {
+				userRepository.save(newUser);
+				return new ResponseEntity<>("User Added Successfully", HttpStatus.CREATED);
+			} catch (Exception ex) {
+				throw new Exception("Login id already Exists");
+			}
+		} else {
+			throw new Exception("User with email already Exists");
+		}
+	}
+
+	@Override
+	public ResponseEntity<?> findUserById(Integer userId) {
+		Optional<User> findById = userRepository.findById(userId);
+		try {
+			if (findById.isPresent()) {
+				User findUser = findById.get();
+				return new ResponseEntity<User>(findUser, HttpStatus.OK);
+			} else
+				throw new RecordNotFoundException("No record found with ID " + userId);
+		} catch (RecordNotFoundException e) {
+			return new ResponseEntity(e.getMessage(), HttpStatus.NOT_FOUND);
+		}
+	}
+	
+	
+	@Override
+	public ResponseEntity<AuthenticateResponse> userLogin(User loginDetails) {
+		final Optional<User> userdetails = userRepository.findByEmail(loginDetails.getUserEmail());
+		String uid = "";
+		String generateToken = "";
+		if (userdetails.getPassword().equals(loginDetails.getPassword())) {
+			uid = loginDetails.getEmailid();
+			generateToken = jwtutil.generateToken(userdetails);
+
+			return new ResponseEntity<>(new AuthResponse(uid, true, generateToken), HttpStatus.OK);
+		} else {
+
+			return new ResponseEntity<>(new AuthResponse(loginDetails.getEmailid(), false, "In Correct Password"),
+					HttpStatus.FORBIDDEN);
+		}
+	}
+
+}

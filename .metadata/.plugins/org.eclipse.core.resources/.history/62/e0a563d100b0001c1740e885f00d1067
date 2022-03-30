@@ -1,0 +1,9 @@
+package com.flightapp.model;
+
+public class AuthenticateResponse {
+
+	private String username;
+	private boolean valid;
+	private String token;
+
+}

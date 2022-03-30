@@ -22,17 +22,13 @@ public class UserController {
 	public String addUser(@RequestBody User newUser) {
 		try {
 			userService.createUser(newUser);
-			return "New user created with id : "+newUser.getUserId();
+			return "New user created with mail : "+newUser.getUserEmail();
 		} catch (Exception e) {
 			e.printStackTrace();
 			return "Something went wrong, please check the data entered";
 		}
 	}
-
-	@RequestMapping(value = "/searchUser/{userId}", method = RequestMethod.GET)
-	public ResponseEntity<?> searchUserByID(@PathVariable("userId") Integer userId) {
-
-		return userService.findUserById(userId);
-	}
+	
+	
 
 }
