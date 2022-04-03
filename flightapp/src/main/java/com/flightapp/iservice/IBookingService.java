@@ -8,7 +8,7 @@ import com.flightapp.model.Ticket;
 
 public interface IBookingService {
 	
-	public List<Ticket> createBooking(BooikingInputModel bookingInput) throws Exception;
+	public List<Ticket> createBooking(BooikingInputModel bookingInput, String name, String email) throws Exception;
 	
 	public Ticket getTicket(Integer pnr) throws Exception;
 

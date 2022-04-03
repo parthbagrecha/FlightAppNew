@@ -10,12 +10,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.flightapp.entity.AirlineInventory;
+import com.flightapp.feignclients.AuthService;
 import com.flightapp.iservice.IFlightService;
 import com.flightapp.model.FlightModel;
 
 @RestController
 @RequestMapping("/api/v1.0/flight/search")
 public class FlightController {
+
+	@Autowired
+	AuthService authService;
 
 	@Autowired
 	IFlightService flightService;
@@ -28,8 +32,7 @@ public class FlightController {
 	@GetMapping("/viewFlight")
 	public List<AirlineInventory> viewFlight(@RequestBody FlightModel flightModel) {
 		try {
-			List<AirlineInventory> result = new ArrayList<>();
-			result = flightService.viewFlight(flightModel);
+			List<AirlineInventory> result = flightService.viewFlight(flightModel);
 			if (!result.isEmpty()) {
 				return result;
 			} else {
@@ -37,7 +40,7 @@ public class FlightController {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			return new ArrayList<>();
 		}
 	}
 

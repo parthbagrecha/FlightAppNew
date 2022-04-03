@@ -1,0 +1,23 @@
+package com.flightapp.service;
+
+import org.springframework.http.ResponseEntity;
+
+import com.flightapp.iservice.IAdminService;
+import com.flightapp.model.Admin;
+import com.flightapp.model.AuthenticateResponse;
+
+public class AdminService implements IAdminService{
+
+	@Override
+	public ResponseEntity<AuthenticateResponse> adminLogin(Admin adminLoginDetails) {
+		return null;
+	}
+
+	@Override
+	public ResponseEntity<AuthenticateResponse> adminValidate(String authToken) {
+		return null;
+	}
+	
+	
+
+}

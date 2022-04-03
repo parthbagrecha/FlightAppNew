@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.flightapp.entity.Booking;
+import com.flightapp.exception.RecordNotFoundException;
 import com.flightapp.iservice.IBookingService;
 import com.flightapp.model.BooikingInputModel;
 import com.flightapp.model.PassengerDetails;
@@ -20,7 +21,7 @@ public class BookingService implements IBookingService {
 	BookingRepository bookingRepository;
 
 	@Override
-	public List<Ticket> createBooking(BooikingInputModel bookingInput) throws Exception {
+	public List<Ticket> createBooking(BooikingInputModel bookingInput, String name, String email) throws Exception {
 		if (bookingInput.getNoOfSeats() != bookingInput.getPassengerDetails().size()) {
 			throw new Exception("Please enter correct no of Passengers");
 		}
@@ -35,6 +36,8 @@ public class BookingService implements IBookingService {
 			booking.setPassengerAge(passenger.getpAge());
 			booking.setSeatNo(passenger.getSeatNo());
 			booking.setMeal(passenger.getMeal());
+			booking.setEmail(email);
+			booking.setName(name);
 
 			booking = bookingRepository.save(booking);
 
@@ -47,8 +50,8 @@ public class BookingService implements IBookingService {
 	@Override
 	public Ticket getTicket(Integer pnr) throws Exception {
 		Booking booking = bookingRepository.getById(pnr);
-		if (booking.equals(null)) {
-			throw new Exception("No ticket found with this pnr.");
+		if (booking == null) {
+			throw new RecordNotFoundException("No ticket found with this pnr.");
 		}
 		PassengerDetails passenger = new PassengerDetails(booking.getPassengerName(), booking.getPassengerGender(),
 				booking.getPassengerAge(), booking.getSeatNo(), booking.getMeal());
@@ -59,7 +62,7 @@ public class BookingService implements IBookingService {
 	public List<Booking> getHistory(String email) throws Exception {
 		List<Booking> bookings = bookingRepository.findAllBasedOnEmail(email);
 		if (bookings.isEmpty()) {
-			throw new Exception("No previous bookings with this email.");
+			throw new RecordNotFoundException("No previous bookings with this email.");
 		}
 		return bookings;
 	}
@@ -70,7 +73,7 @@ public class BookingService implements IBookingService {
 			bookingRepository.deleteById(pnr);
 			return "Booking with pnr "+pnr+" deleted.";
 		} catch (Exception e) {
-			throw new Exception("Booking with pnr "+pnr+" doesn't exist.");
+			throw new RecordNotFoundException("Booking with pnr "+pnr+" doesn't exist.");
 		}
 	}
 

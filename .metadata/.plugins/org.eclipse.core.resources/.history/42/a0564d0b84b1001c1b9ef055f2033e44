@@ -1,0 +1,7 @@
+package com.flightapp.service;
+
+@FeignClient(name = "${authservice.client.name}", 
+url = "${authservice.client.url}")
+public class AuthService {
+
+}

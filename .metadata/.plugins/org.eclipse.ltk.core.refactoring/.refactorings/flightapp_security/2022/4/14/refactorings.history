@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AuthenticateResponse.java&apos; to &apos;flightapp/src/main/java/com.flightapp.model&apos;&#x0D;&#x0A;- Original project: &apos;flightapp_security&apos;&#x0D;&#x0A;- Destination element: &apos;flightapp/src/main/java/com.flightapp.model&apos;&#x0D;&#x0A;- Original element: &apos;com.flightapp.model.AuthenticateResponse.java&apos;" description="Copy compilation unit" destination="=flightapp/src\/main\/java&lt;com.flightapp.model" element1="/src\/main\/java&lt;com.flightapp.model{AuthenticateResponse.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1648794200804" units="1" version="1.0"/>
+</session>

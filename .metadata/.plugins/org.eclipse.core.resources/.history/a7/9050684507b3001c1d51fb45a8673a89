@@ -1,0 +1,29 @@
+package com.flightapp.controller;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.flightapp.feignclients.AuthService;
+import com.flightapp.service.AirlineService;
+
+@ExtendWith(MockitoExtension.class)
+public class AirlineControllerTest {
+	
+	@Autowired
+	AirlineController airlineController;
+	
+	@Mock
+	AirlineService airlineService;
+	
+	@Mock
+	AuthService authService;
+	
+	@Test
+	void saveResgisterAirline() {
+		AirlineMaster airlineMAster = new AirlineMaster();
+	}
+	
+
+}

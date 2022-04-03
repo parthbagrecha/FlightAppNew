@@ -37,31 +37,35 @@ public class UserService implements IUserService {
 	}
 
 	@Override
-	public ResponseEntity<AuthenticateResponse> userLogin(User loginDetails) throws Exception {
-		try {
-			final Optional<User> userDetails = userRepository.findById(loginDetails.getUserEmail());
-			if (userDetails.isEmpty()) {
-				throw new Exception("User not found.");
-			}
-			String uid = "";
-			String generateToken = "";
-			User user = userDetails.get();
-			if (user.getUserPassword().equals(loginDetails.getUserPassword())) {
-				uid = loginDetails.getUserEmail();
-				generateToken = jwtutil.generateToken(user);
-
-				return new ResponseEntity<>(new AuthenticateResponse(uid, true, generateToken), HttpStatus.OK);
-			} else {
-				return new ResponseEntity<>(
-						new AuthenticateResponse(loginDetails.getUserEmail(), false, "In Correct Password"),
-						HttpStatus.FORBIDDEN);
-			}
-		} catch (Exception e) {
-			throw new Exception("User doesnt exist");
+	public User getUser(String token) {
+		String token1 = token.substring(7);
+		Optional<User> user = userRepository.findByName(jwtutil.extractUsername(token1));
+		if (user.isPresent()) {
+			return user.get();
+		}
+		else {
+			return null;
 		}
 	}
-	
-	
+
+	@Override
+	public ResponseEntity<AuthenticateResponse> userLogin(User loginDetails) {
+		final Optional<User> userDetails = userRepository.findById(loginDetails.getUserEmail());
+		String uid = "";
+		String generateToken = "";
+		User user = userDetails.get();
+		if (user.getUserPassword().equals(loginDetails.getUserPassword())) {
+			uid = loginDetails.getUserEmail();
+			generateToken = jwtutil.generateToken(user);
+
+			return new ResponseEntity<>(new AuthenticateResponse(uid, true, generateToken), HttpStatus.OK);
+		} else {
+			return new ResponseEntity<>(
+					new AuthenticateResponse(loginDetails.getUserEmail(), false, "In Correct Password"),
+					HttpStatus.FORBIDDEN);
+		}
+	}
+
 	@Override
 	public ResponseEntity<AuthenticateResponse> validate(String authToken) {
 		String token1 = authToken.substring(7);
@@ -69,7 +73,7 @@ public class UserService implements IUserService {
 		if (Boolean.TRUE.equals(jwtutil.validateToken(token1))) {
 			res.setUsername(jwtutil.extractUsername(token1));
 			res.setValid(true);
-			Optional<User> user1 = userRepository.findById(jwtutil.extractUsername(token1));
+			Optional<User> user1 = userRepository.findByName(jwtutil.extractUsername(token1));
 			if (user1.isPresent()) {
 				res.setUsername(user1.get().getUserEmail());
 				res.setValid(true);

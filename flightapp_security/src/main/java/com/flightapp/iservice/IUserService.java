@@ -6,13 +6,13 @@ import com.flightapp.entity.User;
 import com.flightapp.model.AuthenticateResponse;
 
 public interface IUserService {
-	
+
 	public ResponseEntity<?> createUser(User newUser) throws Exception;
-	
-//	public ResponseEntity<?> findUserById(Integer userId);
 
-	ResponseEntity<AuthenticateResponse> userLogin(User loginDetails) throws Exception;
+	public ResponseEntity<AuthenticateResponse> userLogin(User loginDetails);
 
-	ResponseEntity<AuthenticateResponse> validate(String authToken);
+	public ResponseEntity<AuthenticateResponse> validate(String authToken);
+
+	public User getUser(String token);
 
 }

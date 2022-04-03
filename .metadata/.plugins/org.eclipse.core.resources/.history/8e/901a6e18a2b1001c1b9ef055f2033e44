@@ -1,0 +1,42 @@
+package com.flightapp.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+
+import com.flightapp.entity.User;
+import com.flightapp.iservice.IAdminService;
+import com.flightapp.model.Admin;
+import com.flightapp.model.AuthenticateResponse;
+import com.flightapp.respository.UserRepository;
+
+public class AdminService implements IAdminService {
+
+	@Autowired
+	UserRepository userRepository;
+	
+	@Autowired
+	private JwtUtil jwtutil;
+
+	@Override
+	public ResponseEntity<AuthenticateResponse> adminLogin(Admin adminLoginDetails) {
+		if (adminLoginDetails.getUsername().equals("Admin")) {
+			String uid = "";
+			String generateToken = "";
+			Optional<User> admin = userRepository.findByName(adminLoginDetails.getUsername());
+			if(adminLoginDetails.getPassword().equals(admin.get().getUserPassword())) {
+				uid = adminLoginDetails.getUsername();
+				generateToken = jwtutil.generateToken(admin);
+			}
+				
+			return null;
+		}
+	}
+
+	@Override
+	public ResponseEntity<AuthenticateResponse> adminValidate(String authToken) {
+		return null;
+	}
+
+}

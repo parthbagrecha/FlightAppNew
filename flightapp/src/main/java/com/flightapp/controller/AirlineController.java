@@ -2,12 +2,15 @@ package com.flightapp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.flightapp.entity.AirlineMaster;
+import com.flightapp.exception.InvalidTokenException;
+import com.flightapp.feignclients.AuthService;
 import com.flightapp.iservice.IAirlineService;
 
 @RestController
@@ -17,23 +20,34 @@ public class AirlineController {
 	@Autowired
 	IAirlineService airlineService;
 
-	@RequestMapping(value = "register", method = RequestMethod.POST)
-	public String registerAirline(@RequestBody AirlineMaster airlineMaster) {
+	@Autowired
+	AuthService authService;
+
+	@PostMapping(value = "register")
+	public String registerAirline(@RequestHeader("Authorization") String token,
+			@RequestBody AirlineMaster airlineMaster) {
 		try {
-			Integer id = airlineService.registerAirline(airlineMaster);
-			return "Airline with id " + id + " added";
+			if (authService.getAdminValidity(token).getBody().isValid()) {
+				Integer id = airlineService.registerAirline(airlineMaster);
+				return "Airline with id " + id + " added";
+			} else {
+				throw new InvalidTokenException();
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			return e.getMessage();
 		}
 	}
 
-	@RequestMapping(value = "/{status}/{airlineId}", method = RequestMethod.POST)
-	public String toggleBlock(@PathVariable("status") String status, @PathVariable("airlineId") Integer airlineId)
-			throws Exception {
+	@PostMapping(value = "/{status}/{airlineId}")
+	public String toggleBlock(@RequestHeader("Authorization") String token, @PathVariable("status") String status,
+			@PathVariable("airlineId") Integer airlineId){
 		try {
-			String result = airlineService.toggleBlock(status, airlineId);
-			return result;
+			if (authService.getAdminValidity(token).getBody().isValid()) {
+				return airlineService.toggleBlock(status, airlineId);
+			} else {
+				throw new InvalidTokenException();
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			return e.getMessage();

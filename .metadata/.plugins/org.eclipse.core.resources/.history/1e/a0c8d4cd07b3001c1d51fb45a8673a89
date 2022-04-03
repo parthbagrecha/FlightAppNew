@@ -1,0 +1,40 @@
+package com.flightapp.controller;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import com.flightapp.entity.AirlineMaster;
+import com.flightapp.feignclients.AuthService;
+import com.flightapp.model.AuthenticateResponse;
+import com.flightapp.service.AirlineService;
+
+@ExtendWith(MockitoExtension.class)
+public class AirlineControllerTest {
+	
+	@Autowired
+	AirlineController airlineController;
+	
+	@Mock
+	AirlineService airlineService;
+	
+	@Mock
+	AuthService authService;
+	
+	@Test
+	void saveResgisterAirline() {
+		AirlineMaster airlineMaster = new AirlineMaster();
+		airlineMaster.setAirlineName("Air India");
+		airlineMaster.setIsBlocked("N");
+		AuthenticateResponse tokenValid = new AuthenticateResponse();
+		ResponseEntity<AuthenticateResponse> authResponse = new ResponseEntity<AuthenticateResponse>(tokenValid, HttpStatus.OK);
+		String response = airlineController.registerAirline("token", airlineMaster);
+		when(authService.getAdminValidity("token")).thenReturn(authResposne);
+	}
+	
+
+}

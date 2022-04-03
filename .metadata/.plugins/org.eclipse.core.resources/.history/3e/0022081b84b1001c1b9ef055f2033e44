@@ -1,0 +1,9 @@
+package com.flightapp.service;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "${authservice.client.name}", 
+url = "${authservice.client.url}")
+public class AuthService {
+
+}

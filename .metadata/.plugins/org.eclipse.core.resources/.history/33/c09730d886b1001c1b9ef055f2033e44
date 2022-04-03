@@ -1,0 +1,57 @@
+package com.flightapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.flightapp.entity.AirlineMaster;
+import com.flightapp.iservice.AuthService;
+import com.flightapp.iservice.IAirlineService;
+
+@RestController
+@RequestMapping("/api/v1.0/flight/airline")
+public class AirlineController {
+
+	@Autowired
+	AuthService authService;
+
+	@Autowired
+	IAirlineService airlineService;
+
+	@RequestMapping(value = "register", method = RequestMethod.POST)
+	public String registerAirline(@RequestHeader("Authorization") String token,
+			@RequestBody AirlineMaster airlineMaster) {
+		try {
+			if (authService.getAdminValidity(token).getBody().isValid()) {
+				Integer id = airlineService.registerAirline(airlineMaster);
+				return "Airline with id " + id + " added";
+			} else {
+				throw new Exception("Session timeout, please Login again.");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			return e.getMessage();
+		}
+	}
+
+	@RequestMapping(value = "/{status}/{airlineId}", method = RequestMethod.POST)
+	public String toggleBlock(@RequestHeader("Authorization") String token, @PathVariable("status") String status,
+			@PathVariable("airlineId") Integer airlineId) throws Exception {
+		try {
+			if (authService.getAdminValidity(token).getBody().isValid()) {
+				String result = airlineService.toggleBlock(status, airlineId);
+				return result;
+			} else {
+				throw new Exception("Session timeout, please Login again.");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			return e.getMessage();
+		}
+	}
+
+}

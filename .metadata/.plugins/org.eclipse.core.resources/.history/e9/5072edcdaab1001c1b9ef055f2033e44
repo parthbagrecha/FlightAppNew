@@ -1,0 +1,18 @@
+package com.flightapp.model;
+
+import java.math.BigInteger;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+
+public class UserModel {
+
+	private String userEmail;
+
+	private String userName;
+
+	private String userPassword;
+
+	private BigInteger userPhone;
+
+}

@@ -1,0 +1,8 @@
+package com.flightapp.iservice;
+
+public class IAdminService {
+
+	public ResponseEntity<AuthResponse> adminLogin(AdminLoginDetails adminLoginDetails);
+
+	public ResponseEntity<AuthResponse> adminValidate(String authToken);
+}

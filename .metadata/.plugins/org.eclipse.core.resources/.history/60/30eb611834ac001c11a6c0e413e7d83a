@@ -1,7 +1,0 @@
-package com.flightapp.admin.service;
-
-import com.flightapp.admin.iservice.IInventoryService;
-
-public class InventoryService implements IInventoryService{
-
-}
