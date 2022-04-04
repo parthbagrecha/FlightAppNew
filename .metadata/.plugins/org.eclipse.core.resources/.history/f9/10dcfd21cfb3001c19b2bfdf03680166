@@ -1,0 +1,49 @@
+package com.flightapp.service;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.mockito.Mockito.when;
+
+import java.math.BigInteger;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.ResponseEntity;
+
+import com.flightapp.entity.User;
+import com.flightapp.model.Admin;
+import com.flightapp.model.AuthenticateResponse;
+import com.flightapp.respository.UserRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class AdminServiceTest {
+
+	@InjectMocks
+	AdminService adminService;
+
+	@Mock
+	UserRepository userRepository;
+
+	@Mock
+	private JwtUtil jwtutil;
+
+	@Test
+	void testAdminLogin() {
+		Admin adminLoginDetails = new Admin("Admin", "Admin", "Admin");
+		User admin = new User("Admin", "Admin", "Admin", BigInteger.valueOf(9999999999L));
+
+		when(userRepository.findById("Admin")).thenReturn(Optional.of(admin));
+		when(jwtutil.generateToken(admin)).thenReturn(
+				"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBZG1pbiIsImV4cCI6MTY0OTA0OTQ4NSwiaWF0IjoxNjQ5MDQ1ODg1fQ.nxAT2YHG5vSPNFvM5hnR8T0rWx9fR4edbSxmdegO3Ac");
+
+		ResponseEntity<AuthenticateResponse> result = adminService.adminLogin(adminLoginDetails);
+
+		assertNotNull(result);
+		assertEquals("Admin", result.getBody().getUsername());
+	}
+
+}

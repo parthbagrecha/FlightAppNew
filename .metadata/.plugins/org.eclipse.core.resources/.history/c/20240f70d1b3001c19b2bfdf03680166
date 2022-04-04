@@ -1,0 +1,32 @@
+package com.flightapp.service;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.ResponseEntity;
+
+import com.flightapp.entity.User;
+import com.flightapp.respository.UserRepository;
+
+@ExtendWith(MockitoExtension.class)
+class UserServiceTest {
+
+	@InjectMocks
+	UserService userService;
+
+	@Mock
+	UserRepository userRepository;
+
+	@Mock
+	private JwtUtil jwtutil;
+
+	@Test
+	void testCreateUser() {
+
+		
+		 ResponseEntity<?> result = userService.createUser(newUser) 
+	}
+
+}

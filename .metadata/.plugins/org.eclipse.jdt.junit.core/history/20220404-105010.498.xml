@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="flightapp_security" project="flightapp_security" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.service.AdminServiceTest" time="1.453" displayname="AdminServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AdminServiceTest]">
+    <testcase name="testAdminValidate" classname="com.flightapp.service.AdminServiceTest" time="1.438" displayname="testAdminValidate()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AdminServiceTest]/[method:testAdminValidate()]"/>
+    <testcase name="testAdminLogin" classname="com.flightapp.service.AdminServiceTest" time="0.015" displayname="testAdminLogin()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AdminServiceTest]/[method:testAdminLogin()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.service.UserServiceTest" time="0.033" displayname="UserServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.UserServiceTest]">
+    <testcase name="testValidate" classname="com.flightapp.service.UserServiceTest" time="0.011" displayname="testValidate()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.UserServiceTest]/[method:testValidate()]"/>
+    <testcase name="testGetUser" classname="com.flightapp.service.UserServiceTest" time="0.007" displayname="testGetUser()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.UserServiceTest]/[method:testGetUser()]"/>
+    <testcase name="testCreateUser" classname="com.flightapp.service.UserServiceTest" time="0.009" displayname="testCreateUser()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.UserServiceTest]/[method:testCreateUser()]"/>
+    <testcase name="testUserLogin" classname="com.flightapp.service.UserServiceTest" time="0.006" displayname="testUserLogin()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.UserServiceTest]/[method:testUserLogin()]"/>
+  </testsuite>
+</testrun>

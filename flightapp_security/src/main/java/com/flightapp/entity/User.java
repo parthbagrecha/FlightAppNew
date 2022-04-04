@@ -56,4 +56,16 @@ public class User {
 		this.userPhone = userPhone;
 	}
 
+	public User() {
+		super();
+	}
+
+	public User(String userEmail, String userName, String userPassword, BigInteger userPhone) {
+		super();
+		this.userEmail = userEmail;
+		this.userName = userName;
+		this.userPassword = userPassword;
+		this.userPhone = userPhone;
+	}
+
 }

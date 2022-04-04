@@ -1,0 +1,57 @@
+package com.flightapp.service;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.mockito.Mockito.when;
+
+import java.math.BigInteger;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.ResponseEntity;
+
+import com.flightapp.entity.User;
+import com.flightapp.respository.UserRepository;
+
+@ExtendWith(MockitoExtension.class)
+class UserServiceTest {
+
+	@InjectMocks
+	UserService userService;
+
+	@Mock
+	UserRepository userRepository;
+
+	@Mock
+	private JwtUtil jwtutil;
+
+	@Test
+	void testCreateUser() throws Exception {
+		User newUser = new User();
+		newUser.setUserName("User");
+		newUser.setUserPassword("User");
+		newUser.setUserEmail("User");
+		newUser.setUserPhone(BigInteger.valueOf(9999999999L));
+
+		when(userRepository.findById("User")).thenReturn(Optional.empty());
+		when(userRepository.save(newUser)).thenReturn(null);
+
+		ResponseEntity<?> result = userService.createUser(newUser);
+
+		assertNotNull(result);
+		assertEquals("User Added Successfully", result.getBody());
+	}
+
+	@Test
+	void testGetUser() {
+		
+		
+		User result = userService.getUser("token");
+
+	}
+
+}

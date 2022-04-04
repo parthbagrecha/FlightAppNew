@@ -1,0 +1,22 @@
+package com.flightapp.service;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.respository.UserRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class AdminServiceTest {
+	
+	@InjectMocks
+	AdminService adminService;
+	
+	@Mock
+	UserRepository userRepository;
+
+	@Mock
+	private JwtUtil jwtutil;
+
+}

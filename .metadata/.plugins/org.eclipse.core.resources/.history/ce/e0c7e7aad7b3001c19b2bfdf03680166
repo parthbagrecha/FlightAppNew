@@ -1,0 +1,23 @@
+package com.flightapp.controller;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.service.AdminService;
+import com.flightapp.service.UserService;
+
+@ExtendWith(MockitoExtension.class)
+public class UserControllerTest {
+
+	@InjectMocks
+	UserController userController;
+
+	@Mock
+	UserService userService;
+
+	@Mock
+	AdminService adminService;
+
+}

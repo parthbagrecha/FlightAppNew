@@ -1,0 +1,32 @@
+package com.flightapp.service;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.ResponseEntity;
+
+import com.flightapp.model.AuthenticateResponse;
+import com.flightapp.respository.UserRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class AdminServiceTest {
+
+	@InjectMocks
+	AdminService adminService;
+
+	@Mock
+	UserRepository userRepository;
+
+	@Mock
+	private JwtUtil jwtutil;
+
+	@Test
+	void testAdminLogin() {
+		Admin adminLoginDetails = new Admin("Test", "Test", "Test");
+
+		ResponseEntity<AuthenticateResponse> result = adminService.adminLogin(adminLoginDetails);
+	}
+
+}

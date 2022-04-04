@@ -30,4 +30,15 @@ public class Admin {
 		this.userEmail = userEmail;
 	}
 
+	public Admin(String userName, String password, String userEmail) {
+		super();
+		this.userName = userName;
+		this.password = password;
+		this.userEmail = userEmail;
+	}
+
+	public Admin() {
+		super();
+	}
+
 }

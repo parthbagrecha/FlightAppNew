@@ -3324,3 +3324,270 @@ Caused by: java.io.FileNotFoundException: D:\Workspaces\flightapp\.metadata\.plu
 2022-04-04 01:06:54,557 [Worker-28: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-04-04 01:06:54,557 [Worker-28: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-04-04 01:06:54,557 [Worker-28: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:37:55,840 [Worker-33: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:37:55,840 [Worker-33: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:37:55,841 [Worker-33: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 09:37:55,855 [Worker-33: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:37:55,858 [Worker-33: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:37:55,858 [Worker-33: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:37:55,858 [Worker-33: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:48:45,091 [Worker-36: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:48:45,092 [Worker-36: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:48:45,092 [Worker-36: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 09:48:45,107 [Worker-36: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:48:45,109 [Worker-36: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:48:45,109 [Worker-36: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:48:45,109 [Worker-36: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:50:27,324 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:50:27,324 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:50:27,324 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:50:27,324 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:50:27,326 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:50:27,326 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:50:27,326 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:50:42,812 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:50:42,812 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:50:42,812 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:50:42,812 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:50:42,814 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:50:42,814 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:50:42,814 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:51:00,184 [Worker-33: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:51:00,184 [Worker-33: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:51:00,185 [Worker-33: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:51:00,185 [Worker-33: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:51:00,186 [Worker-33: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:51:00,186 [Worker-33: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:51:00,186 [Worker-33: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:52:28,078 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:52:28,078 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:52:28,078 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:52:28,078 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:52:28,080 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:52:28,080 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:52:28,080 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:52:48,703 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:52:48,703 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:52:48,703 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:52:48,703 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:52:48,704 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:52:48,704 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:52:48,704 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:53:00,622 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:53:00,622 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:53:00,623 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:53:00,623 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:53:00,626 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:53:00,626 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:53:00,626 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:53:35,745 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:53:35,745 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:53:35,745 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:53:35,745 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:53:35,747 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:53:35,747 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:53:35,747 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:53:47,853 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:53:47,853 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:53:47,854 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:53:47,854 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:53:47,855 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:53:47,855 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:53:47,855 [Worker-41: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 09:59:31,532 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:59:31,532 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:59:31,532 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:59:31,532 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 09:59:31,533 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 09:59:31,533 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 09:59:31,533 [Worker-47: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:00:11,065 [Worker-44: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:00:11,065 [Worker-44: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:00:11,065 [Worker-44: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:00:11,065 [Worker-44: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:00:11,067 [Worker-44: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:00:11,067 [Worker-44: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:00:11,067 [Worker-44: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:01:45,991 [Worker-49: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:01:45,991 [Worker-49: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:01:45,991 [Worker-49: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:01:45,991 [Worker-49: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:01:45,993 [Worker-49: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:01:45,993 [Worker-49: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:01:45,993 [Worker-49: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:02:26,119 [Worker-50: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:02:26,119 [Worker-50: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:02:26,119 [Worker-50: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:02:26,120 [Worker-50: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:02:26,121 [Worker-50: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:02:26,121 [Worker-50: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:02:26,121 [Worker-50: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:22:41,987 [Worker-55: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:22:41,987 [Worker-55: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:22:41,987 [Worker-55: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:22:41,987 [Worker-55: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:22:41,989 [Worker-55: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:22:41,989 [Worker-55: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:22:41,989 [Worker-55: Launching AdminServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:23:45,233 [Worker-41: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:23:45,233 [Worker-41: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:23:45,234 [Worker-41: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:23:45,234 [Worker-41: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:23:45,235 [Worker-41: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:23:45,235 [Worker-41: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:23:45,235 [Worker-41: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:24:33,775 [Worker-55: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:24:33,775 [Worker-55: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:24:33,775 [Worker-55: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:24:33,775 [Worker-55: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:24:33,777 [Worker-55: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:24:33,777 [Worker-55: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:24:33,777 [Worker-55: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:24:59,794 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:24:59,794 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:24:59,794 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:24:59,794 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:24:59,799 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:24:59,799 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:24:59,799 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:26:00,127 [Worker-58: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:26:00,127 [Worker-58: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:26:00,128 [Worker-58: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:26:00,128 [Worker-58: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:26:00,129 [Worker-58: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:26:00,129 [Worker-58: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:26:00,130 [Worker-58: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:28:16,768 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:28:16,769 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:28:16,769 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:28:16,769 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:28:16,770 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:28:16,770 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:28:16,770 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:28:48,636 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-04 10:28:49,893 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.flightapp.security:flightappSecurity:0.0.1-SNAPSHOT @ D:\Workspaces\flightapp\flightapp_security\pom.xml.
+2022-04-04 10:28:51,127 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.flightapp:flightapp:0.0.1-SNAPSHOT @ D:\Workspaces\flightapp\flightapp\pom.xml.
+2022-04-04 10:28:52,189 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flightapp_security/src/main/java
+2022-04-04 10:28:52,189 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flightapp_security/src/main/resources
+2022-04-04 10:28:52,189 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flightapp_security/src/main/resources
+2022-04-04 10:28:52,190 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flightapp_security/src/test/java
+2022-04-04 10:28:52,613 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-04-04 10:30:16,091 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:30:16,091 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:30:16,091 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:30:16,107 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:30:16,109 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:30:16,109 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:30:16,110 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:31:48,379 [Worker-52: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:31:48,379 [Worker-52: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:31:48,380 [Worker-52: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:31:48,380 [Worker-52: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:31:48,382 [Worker-52: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:31:48,382 [Worker-52: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:31:48,382 [Worker-52: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:36:12,559 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:36:12,559 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:36:12,560 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:36:12,560 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:36:12,562 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:36:12,563 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:36:12,563 [Worker-57: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:44:06,419 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:44:06,419 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:44:06,419 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:44:06,419 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:44:06,421 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:44:06,421 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:44:06,421 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:46:38,864 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:38,864 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:38,864 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:46:38,864 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:46:38,865 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:38,865 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:38,865 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:46:52,648 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:52,648 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:52,648 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:46:52,648 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:46:52,650 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:52,650 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:52,650 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:50:07,938 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:50:07,938 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:50:07,938 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:50:07,938 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:50:07,939 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:50:07,939 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:50:07,939 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:53:32,353 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:53:32,353 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:53:32,353 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:53:32,353 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:53:32,356 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:53:32,356 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:53:32,356 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 10:58:25,470 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:58:25,471 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:58:25,471 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:58:25,471 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:58:25,472 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:58:25,472 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:58:25,472 [Worker-54: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 11:00:25,294 [Worker-61: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:00:25,295 [Worker-61: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:00:25,295 [Worker-61: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:00:25,295 [Worker-61: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:00:25,297 [Worker-61: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:00:25,297 [Worker-61: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:00:25,297 [Worker-61: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 11:05:54,341 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:05:54,341 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:05:54,341 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:05:54,341 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:05:54,346 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:05:54,346 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:05:54,346 [Worker-59: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 11:08:11,575 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:08:11,576 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:08:11,576 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:08:11,576 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:08:11,577 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:08:11,577 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:08:11,577 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 11:11:30,363 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:11:30,363 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:11:30,364 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:11:30,364 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:11:30,365 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:11:30,366 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:11:30,366 [Worker-60: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 11:12:23,722 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:12:23,722 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:12:23,722 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:12:23,723 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:12:23,724 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:12:23,724 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:12:23,724 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 11:12:44,082 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:12:44,082 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:12:44,083 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:12:44,083 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:12:44,084 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:12:44,084 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:12:44,084 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources
+2022-04-04 11:13:54,643 [Worker-63: Launching flightapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:13:54,643 [Worker-63: Launching flightapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:13:54,643 [Worker-63: Launching flightapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:13:54,643 [Worker-63: Launching flightapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:13:54,646 [Worker-63: Launching flightapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:13:54,646 [Worker-63: Launching flightapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:13:54,646 [Worker-63: Launching flightapp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp\src\test\resources
+2022-04-04 11:14:06,620 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:14:06,620 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:14:06,620 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:14:06,620 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:14:06,621 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:14:06,621 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:14:06,621 [Worker-56: Launching flightapp_security] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workspaces\flightapp\flightapp_security\src\test\resources

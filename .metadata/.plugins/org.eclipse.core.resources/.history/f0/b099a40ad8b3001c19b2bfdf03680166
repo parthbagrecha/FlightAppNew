@@ -1,0 +1,39 @@
+package com.flightapp.controller;
+
+import static org.mockito.Mockito.when;
+
+import java.math.BigInteger;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.entity.User;
+import com.flightapp.respository.UserRepository;
+import com.flightapp.service.AdminService;
+import com.flightapp.service.UserService;
+
+@ExtendWith(MockitoExtension.class)
+public class UserControllerTest {
+
+	@InjectMocks
+	UserController userController;
+
+	@Mock
+	UserService userService;
+
+	@Mock
+	AdminService adminService;
+
+	@Test
+	void testAddUser() {
+		User user = new User("User", "User", "User", BigInteger.valueOf(9999999999L));
+
+		when(userService.createUser(user)).thenReturn(null);
+
+		String result = userService.addUser(user);
+	}
+
+}

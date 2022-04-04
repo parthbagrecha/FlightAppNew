@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="flightapp_security" project="flightapp_security" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.FlightappApplicationTests" time="0.234" displayname="FlightappApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.FlightappApplicationTests]">
+    <testcase name="contextLoads" classname="com.flightapp.FlightappApplicationTests" time="0.234" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.FlightappApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+</testrun>
