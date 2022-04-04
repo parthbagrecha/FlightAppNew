@@ -1,0 +1,38 @@
+package com.flightapp.service;
+
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.mockito.Mockito.when;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.entity.AirlineInventory;
+import com.flightapp.repository.InventoryRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class FlightServiceTest {
+
+	@InjectMocks
+	FlightService flightService;
+
+	@Mock
+	InventoryRepository inventoryRepository;
+
+	@Test
+	void viewAllFlight() {
+		List<AirlineInventory> flights = new ArrayList<>();
+
+		when(inventoryRepository.findAll()).thenReturn(flights);
+
+		Iterable<AirlineInventory> result = flightService.viewAllFlight();
+
+		assertNull(result);
+	}
+
+}

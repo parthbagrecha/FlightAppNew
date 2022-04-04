@@ -1,5 +1,5 @@
 java.lang.NullPointerException
-	at com.flightapp.controller.AirlineControllerTest.testBlock(AirlineControllerTest.java:50)
+	at com.flightapp.controller.AirlineControllerTest.testRegisterAirline(AirlineControllerTest.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -1,0 +1,28 @@
+package com.flightapp.service;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.flightapp.entity.AirlineMaster;
+import com.flightapp.repository.AirlineRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class AirlineServiceTest {
+	
+	@Autowired
+	AirlineRepository airlineRepository;
+	
+	@Mock
+	AirlineService airlineService;
+	
+	@Test
+	void testRegisterAirline() {
+		AirlineMaster airlineMaster = new AirlineMaster();
+		airlineMaster.setAirlineId(1100,"Air India", "N");
+		String response = airlineService.
+	}
+
+}

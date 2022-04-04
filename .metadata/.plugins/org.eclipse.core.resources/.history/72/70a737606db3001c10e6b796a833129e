@@ -1,0 +1,23 @@
+package com.flightapp.controller;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.feignclients.AuthService;
+import com.flightapp.service.InventoryService;
+
+@ExtendWith(MockitoExtension.class)
+public class InventoryControllerTest {
+	
+	@InjectMocks
+	InventoryController inventoryController;
+	
+	@Mock
+	AuthService authService;
+
+	@Mock
+	InventoryService inventoryService;
+
+}

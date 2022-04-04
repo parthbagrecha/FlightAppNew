@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AirlineControllerTest" project="flightapp" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.controller.AirlineControllerTest" time="0.981" displayname="AirlineControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]">
+    <testcase name="testRegisterAirline" classname="com.flightapp.controller.AirlineControllerTest" time="0.964" displayname="testRegisterAirline()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]/[method:testRegisterAirline()]"/>
+    <testcase name="testBlock" classname="com.flightapp.controller.AirlineControllerTest" time="0.006" displayname="testBlock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]/[method:testBlock()]"/>
+    <testcase name="testUnblock" classname="com.flightapp.controller.AirlineControllerTest" time="0.011" displayname="testUnblock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]/[method:testUnblock()]"/>
+  </testsuite>
+</testrun>

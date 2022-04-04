@@ -1,4 +1,4 @@
-!SESSION 2022-04-03 09:45:00.760 -----------------------------------------------
+!SESSION 2022-04-04 00:13:22.564 -----------------------------------------------
 eclipse.buildId=4.4.2.201911201053-RELEASE
 java.version=11.0.12
 java.vendor=Oracle Corporation
@@ -7,9 +7,9 @@ Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
 This is a continuation of log file D:\Workspaces\flightapp\.metadata\.bak_0.log
-Created Time: 2022-04-03 10:01:58.044
+Created Time: 2022-04-04 00:46:54.106
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:01:58.044
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:54.107
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -32,7 +32,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:01:59.200
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:55.460
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -55,7 +55,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:01:59.269
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:55.937
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -78,7 +78,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:01:59.561
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:56.077
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -101,7 +101,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:01:59.683
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:56.473
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -124,7 +124,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:01:59.754
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:56.829
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -147,7 +147,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:01:59.926
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:57.307
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -170,7 +170,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:00.304
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:57.791
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -193,7 +193,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:00.518
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:58.523
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -216,7 +216,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:00.705
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:46:58.955
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -239,7 +239,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:00.837
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:47:00.460
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -262,7 +262,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:12.151
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:47:13.236
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -285,7 +285,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:34.423
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:47:13.753
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -308,7 +308,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:48.381
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:47:13.862
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -331,7 +331,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:48.743
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:48:52.082
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -354,7 +354,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:48.796
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:48:52.266
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -377,7 +377,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:48.832
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:48:52.498
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -400,7 +400,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:49.014
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:48:52.581
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -423,7 +423,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:02:49.325
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:48:54.154
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -446,7 +446,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:03:45.330
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:48:54.965
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -469,7 +469,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:03:45.986
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:48:55.570
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -492,7 +492,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:04:30.074
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:48:55.820
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -515,7 +515,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:04:30.329
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:48:56.101
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -538,7 +538,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:04:30.588
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:03.920
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -561,7 +561,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:04:31.815
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:04.196
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -584,7 +584,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:04:31.900
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:04.424
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -607,7 +607,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:04:35.190
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:04.509
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -630,7 +630,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:05:36.457
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:04.881
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -653,7 +653,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:05:36.836
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:05.166
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -676,7 +676,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:05:36.896
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:05.468
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -699,7 +699,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:05:36.982
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:08.818
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -722,7 +722,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:05:50.249
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:08.991
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -745,7 +745,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:05:59.476
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:09.334
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -768,7 +768,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:05:59.811
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:09.380
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -791,7 +791,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:05:59.901
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:09.629
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -814,7 +814,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:00.000
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:09.811
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -837,7 +837,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:16.590
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:09.978
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -860,7 +860,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:16.845
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:18.266
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -883,7 +883,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:16.949
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:18.401
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -906,7 +906,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:17.092
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:18.598
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -929,7 +929,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:17.196
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:18.709
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -952,7 +952,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:18.454
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:19.111
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -975,7 +975,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:18.603
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:21.024
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -998,7 +998,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:19.669
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:21.465
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1021,7 +1021,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:19.815
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:27.302
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1044,7 +1044,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:19.919
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:27.489
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1067,7 +1067,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:20.045
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:27.675
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1090,7 +1090,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:21.236
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:27.773
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1113,7 +1113,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:22.308
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:28.222
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1136,7 +1136,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:22.781
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:33.850
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1159,7 +1159,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:22.838
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:34.010
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1182,7 +1182,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:23.484
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:34.200
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1205,7 +1205,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:24.249
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:34.312
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1228,7 +1228,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:25.864
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:37.919
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1251,7 +1251,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:26.168
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:38.074
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1274,7 +1274,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:26.380
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:38.167
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1297,7 +1297,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:26.490
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:38.332
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1320,7 +1320,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:26.911
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:38.759
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1343,7 +1343,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:27.013
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:43.027
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1366,7 +1366,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:27.128
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:43.193
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1389,7 +1389,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:27.203
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:43.389
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1412,7 +1412,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:27.283
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:43.488
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1435,7 +1435,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:27.660
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:43.870
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1458,7 +1458,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:27.731
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:47.205
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1481,7 +1481,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:06:27.799
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:59.750
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1504,7 +1504,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:09.700
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:49:59.956
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1527,7 +1527,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:10.219
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:00.181
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1550,7 +1550,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:10.395
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:00.301
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1573,7 +1573,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:13.260
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:00.633
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1596,7 +1596,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:13.397
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:06.624
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1619,7 +1619,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:14.399
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:06.778
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1642,7 +1642,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:14.778
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:07.008
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1665,7 +1665,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:16.792
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:07.132
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1688,7 +1688,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:19.818
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:08.760
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1711,7 +1711,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:19.945
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:15.597
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1734,7 +1734,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:20.130
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:15.724
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1757,7 +1757,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:20.247
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:15.978
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1780,7 +1780,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:20.393
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:16.110
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1803,7 +1803,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:20.730
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:17.840
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1826,7 +1826,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:40.338
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:36.008
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1849,7 +1849,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:40.883
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:36.175
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1872,7 +1872,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:41.051
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:36.374
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1895,7 +1895,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:41.133
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:36.473
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1918,7 +1918,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:41.342
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:38.303
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1941,7 +1941,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:41.401
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:38.455
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1964,7 +1964,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:52.116
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:38.566
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -1987,7 +1987,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:52.399
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:42.324
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2010,7 +2010,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:52.568
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:42.439
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2033,7 +2033,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:52.627
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:42.690
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2056,7 +2056,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:52.680
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:42.770
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2079,7 +2079,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:53.375
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:44.091
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2102,7 +2102,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:53.552
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:44.287
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2125,7 +2125,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:53.715
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:47.767
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2148,7 +2148,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:08:53.828
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:47.885
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2171,7 +2171,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:19.772
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:48.139
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2194,7 +2194,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:20.754
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:48.291
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2217,7 +2217,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:20.836
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:50.243
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2240,7 +2240,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:21.070
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:54.242
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2263,7 +2263,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:21.433
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:54.317
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2286,7 +2286,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:21.593
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:54.560
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2309,7 +2309,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:21.744
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:54.671
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2332,7 +2332,7 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:21.924
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 00:50:55.225
 !MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 !STACK 0
 java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
@@ -2355,1598 +2355,88 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	... 1 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:22.056
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:22.185
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:22.329
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:22.578
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:22.831
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:23.366
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:23.574
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:23.673
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:23.952
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:24.132
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:25.369
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:25.737
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:25.786
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:09:25.864
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:10:11.012
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:48.656
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:49.027
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:49.219
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:49.309
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:50.736
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:50.866
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:51.037
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:51.179
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:51.296
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:51.423
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:51.621
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:51.875
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:52.121
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:52.411
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:52.656
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:56.929
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:57.252
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:57.302
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:12:57.447
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:13:49.033
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:13:49.123
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:13:49.240
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:13:49.303
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:16:26.351
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:27:43.851
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:27:46.039
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:27:46.440
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:27:46.641
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:27:46.913
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:27:47.025
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:01.086
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:01.455
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:01.665
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:01.708
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:02.000
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:02.299
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:02.478
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:02.695
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:02.864
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:02.988
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:29:03.053
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 10:31:49.059
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-!STACK 0
-java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
-	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:55)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	... 1 more
-
-!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2022-04-03 10:33:08.253
-!MESSAGE Connection to https://download.eclipse.org/technology/epp/packages/2019-09/content.xml.xz failed on Software caused connection abort: recv failed. Retry attempt 0 started
-!STACK 0
-javax.net.ssl.SSLException: Software caused connection abort: recv failed
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
-	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1531)
-	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:975)
-	at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:84)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
-	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
-	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
-	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-	Suppressed: java.net.SocketException: Software caused connection abort: socket write error
-		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
-		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
-		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
-		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:83)
-		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
-		... 26 more
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
-	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
-	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
-	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
-	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1318)
-	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:959)
-	... 22 more
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:56:52.625
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lmibMfxn
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:03.657
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZNMNofVa
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:56:52.625
-!MESSAGE unsubscribing from classpath changes: sts4.classpath.lmibMfxn
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:03.657
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZNMNofVa
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:56:52.625
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:03.657
 !MESSAGE subsribers = {}
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:56:52.625
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lmibMfxn => OK
-!SESSION 2022-04-03 10:56:56.654 -----------------------------------------------
-eclipse.buildId=4.4.2.201911201053-RELEASE
-java.version=11.0.12
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -product org.springframework.boot.ide.branding.sts4
-Command-line arguments:  -data file:/D:/Workspaces/flightapp/ -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:03.658
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZNMNofVa => OK
 
-!ENTRY org.eclipse.jface 2 0 2022-04-03 10:57:06.100
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-03 10:57:06.100
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a0c04ab,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@453439e,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.egit.ui 2 0 2022-04-03 10:57:26.788
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:27.318
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:18.729
 !MESSAGE Entering DelegatingStreamConnectionProvider()
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:27.318
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2000b1a0[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:18.730
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2280bee3[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:27.334
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:18.730
 !MESSAGE SpringBootLanguageServer exists!
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:27.600
-!MESSAGE Instantiating ReusableClasspathListenerHandler
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.818
+!MESSAGE Boot LS startup time from start to initialized: 2088ms
 
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-04-03 10:57:28.397
-!MESSAGE Error changing index details central|https://repo.maven.apache.org/maven2
-!STACK 0
-java.io.FileNotFoundException: D:\Workspaces\flightapp\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_0.cfs (The system cannot find the file specified)
-	at java.base/java.io.RandomAccessFile.open0(Native Method)
-	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:260)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:215)
-	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552)
-	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582)
-	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488)
-	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:70)
-	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:321)
-	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306)
-	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236)
-	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915)
-	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339)
-	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579)
-	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450)
-	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638)
-	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602)
-	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578)
-	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58)
-	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235)
-	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205)
-	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173)
-	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160)
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965)
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932)
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878)
-	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163)
-	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263)
-	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.877
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UzSRWrVbisBatched = true
 
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-04-03 10:57:28.400
-!MESSAGE Could not add repository index
-!STACK 1
-org.eclipse.core.runtime.CoreException: Could not add repository index
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:945)
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878)
-	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163)
-	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263)
-	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.io.FileNotFoundException: D:\Workspaces\flightapp\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_0.cfs (The system cannot find the file specified)
-	at java.base/java.io.RandomAccessFile.open0(Native Method)
-	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:260)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:215)
-	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552)
-	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582)
-	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488)
-	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:70)
-	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:321)
-	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306)
-	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236)
-	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915)
-	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339)
-	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579)
-	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450)
-	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638)
-	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602)
-	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578)
-	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58)
-	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235)
-	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205)
-	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173)
-	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160)
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965)
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932)
-	... 5 more
-!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-04-03 10:57:28.402
-!MESSAGE Could not add repository index
-!STACK 0
-java.io.FileNotFoundException: D:\Workspaces\flightapp\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\_0.cfs (The system cannot find the file specified)
-	at java.base/java.io.RandomAccessFile.open0(Native Method)
-	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:260)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:215)
-	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552)
-	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582)
-	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488)
-	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:70)
-	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:321)
-	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306)
-	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236)
-	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915)
-	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339)
-	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579)
-	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450)
-	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638)
-	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602)
-	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578)
-	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58)
-	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235)
-	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205)
-	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173)
-	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160)
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965)
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932)
-	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878)
-	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163)
-	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:263)
-	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.878
+!MESSAGE subscribing to classpath changes: sts4.classpath.UzSRWrVb isBatched = true
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.440
-!MESSAGE Boot LS startup time from start to initialized: 7077ms
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.564
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SGdJTvTUisBatched = true
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.568
-!MESSAGE subscribing to classpath changes: sts4.classpath.SGdJTvTU isBatched = true
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.569
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.878
 !MESSAGE Setting up ClasspathListenerManager
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.571
-!MESSAGE subsribers = {sts4.classpath.SGdJTvTU=Send Classpath Notifications(82)}
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.878
+!MESSAGE subsribers = {sts4.classpath.UzSRWrVb=Send Classpath Notifications(1958)}
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.571
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.879
 !MESSAGE Sending initial event for all projects ...
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.572
-!MESSAGE project flightapp ...
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.573
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.879
 !MESSAGE project flightapp_security ...
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.573
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.879
+!MESSAGE project flightapp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.879
 !MESSAGE Sending initial event for all projects DONE
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.573
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SGdJTvTU => OK
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.879
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UzSRWrVb => OK
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.576
-!MESSAGE Preparing classpath changed notification flightapp
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.577
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.979
-!MESSAGE classpath=105 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.982
-!MESSAGE buffering callback sts4.classpath.SGdJTvTU flightapp false 105
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.982
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.880
 !MESSAGE Preparing classpath changed notification flightapp_security
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.983
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.880
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.986
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.882
 !MESSAGE classpath=94 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.988
-!MESSAGE buffering callback sts4.classpath.SGdJTvTU flightapp_security false 94
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.884
+!MESSAGE buffering callback sts4.classpath.UzSRWrVb flightapp_security false 94
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:34.988
-!MESSAGE executing callback sts4.classpath.SGdJTvTU 2 batched events
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.884
+!MESSAGE Preparing classpath changed notification flightapp
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-03 10:57:35.109
-!MESSAGE executing callback sts4.classpath.SGdJTvTU SUCCESS [done]
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.885
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.eclipse.ui 2 2 2022-04-03 10:57:49.061
-!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.887
+!MESSAGE classpath=105 entries
 
-!ENTRY org.eclipse.lsp4e 4 0 2022-04-03 11:09:57.395
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.889
+!MESSAGE buffering callback sts4.classpath.UzSRWrVb flightapp false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.889
+!MESSAGE executing callback sts4.classpath.UzSRWrVb 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:09:20.940
+!MESSAGE executing callback sts4.classpath.UzSRWrVb SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-04-04 01:10:08.228
 !MESSAGE 
 !STACK 0
 java.lang.InterruptedException
@@ -3958,3 +2448,15 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:11:28.066
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UzSRWrVb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:11:28.066
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.UzSRWrVb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:11:28.067
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-04 01:11:28.067
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UzSRWrVb => OK

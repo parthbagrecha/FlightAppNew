@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="flightapp" project="flightapp" tests="11" started="11" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.admin.FlightappAdminApplicationTests" time="0.215" displayname="FlightappAdminApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.admin.FlightappAdminApplicationTests]">
+    <testcase name="contextLoads" classname="com.flightapp.admin.FlightappAdminApplicationTests" time="0.215" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.admin.FlightappAdminApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.controller.FlightControllerTest" time="0.168" displayname="FlightControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.FlightControllerTest]">
+    <testcase name="testViewAllFlight" classname="com.flightapp.controller.FlightControllerTest" time="0.159" displayname="testViewAllFlight()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.FlightControllerTest]/[method:testViewAllFlight()]"/>
+    <testcase name="testViewFlight" classname="com.flightapp.controller.FlightControllerTest" time="0.009" displayname="testViewFlight()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.FlightControllerTest]/[method:testViewFlight()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.controller.BookingControllerTest" time="0.112" displayname="BookingControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]">
+    <testcase name="testCreateBooking" classname="com.flightapp.controller.BookingControllerTest" time="0.109" displayname="testCreateBooking()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testCreateBooking()]"/>
+    <testcase name="testGetTicket" classname="com.flightapp.controller.BookingControllerTest" time="0.003" displayname="testGetTicket()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testGetTicket()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.controller.AirlineControllerTest" time="0.134" displayname="AirlineControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]">
+    <testcase name="testRegisterAirline" classname="com.flightapp.controller.AirlineControllerTest" time="0.123" displayname="testRegisterAirline()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]/[method:testRegisterAirline()]"/>
+    <testcase name="testBlock" classname="com.flightapp.controller.AirlineControllerTest" time="0.006" displayname="testBlock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]/[method:testBlock()]"/>
+    <testcase name="testUnblock" classname="com.flightapp.controller.AirlineControllerTest" time="0.005" displayname="testUnblock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]/[method:testUnblock()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.service.AirlineServiceTest" time="0.237" displayname="AirlineServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]">
+    <testcase name="testToggleBlock" classname="com.flightapp.service.AirlineServiceTest" time="0.221" displayname="testToggleBlock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]/[method:testToggleBlock()]"/>
+    <testcase name="testRegisterAirline" classname="com.flightapp.service.AirlineServiceTest" time="0.013" displayname="testRegisterAirline()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]/[method:testRegisterAirline()]"/>
+    <testcase name="testToggleUnblock" classname="com.flightapp.service.AirlineServiceTest" time="0.003" displayname="testToggleUnblock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]/[method:testToggleUnblock()]"/>
+  </testsuite>
+</testrun>

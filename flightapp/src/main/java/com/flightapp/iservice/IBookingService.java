@@ -3,12 +3,12 @@ package com.flightapp.iservice;
 import java.util.List;
 
 import com.flightapp.entity.Booking;
-import com.flightapp.model.BooikingInputModel;
+import com.flightapp.model.BookingInputModel;
 import com.flightapp.model.Ticket;
 
 public interface IBookingService {
 	
-	public List<Ticket> createBooking(BooikingInputModel bookingInput, String name, String email) throws Exception;
+	public List<Ticket> createBooking(BookingInputModel bookingInput, String name, String email) throws Exception;
 	
 	public Ticket getTicket(Integer pnr) throws Exception;
 

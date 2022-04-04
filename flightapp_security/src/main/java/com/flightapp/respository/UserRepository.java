@@ -9,13 +9,9 @@ import org.springframework.stereotype.Repository;
 import com.flightapp.entity.User;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, String>{
+public interface UserRepository extends JpaRepository<User, String> {
 
-	
-	@Query(value="SELECT * FROM user_details where user_name = ?1", nativeQuery=true)
+	@Query(value = "SELECT * FROM user_details where user_name = ?1", nativeQuery = true)
 	Optional<User> findByName(String extractUsername);
-	
-//	@Query(value="SELECT * FROM user_details where email = ?1", nativeQuery=true)
-//	public Optional<User> findByEmail(String email);
 
 }

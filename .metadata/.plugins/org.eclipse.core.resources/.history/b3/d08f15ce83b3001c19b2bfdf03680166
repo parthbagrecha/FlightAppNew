@@ -1,0 +1,18 @@
+package com.flightapp.entity;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+@ExtendWith(MockitoExtension.class)
+public class BookingTest {
+	
+	@Test
+	void testBooking1() {
+		Booking booking = new Booking(110001, "Test", "Test", "Test", "M", 35, "35A", "X");
+		
+		assertNotNull(booking);
+	}
+
+}

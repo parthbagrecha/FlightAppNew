@@ -1,0 +1,34 @@
+package com.flightapp.service;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.flightapp.entity.AirlineMaster;
+import com.flightapp.repository.AirlineRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class AirlineServiceTest {
+	
+	@Autowired
+	AirlineRepository airlineRepository;
+	
+	@InjectMocks
+	AirlineService airlineService;
+	
+	@Test
+	void testRegisterAirline() {
+		AirlineMaster airlineMaster = new AirlineMaster(1100,"Air India", "N");
+		when(airlineRepository.save(airlineMaster)).thenReturn(airlineMaster);
+		airlineService.registerAirline(airlineMaster);
+		assertEquals(1100, airlineMaster.getAirlineId());
+	}
+
+}

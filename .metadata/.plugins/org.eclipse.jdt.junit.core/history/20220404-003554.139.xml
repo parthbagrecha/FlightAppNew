@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="flightapp" project="flightapp" tests="22" started="22" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.controller.FlightControllerTest" time="1.2" displayname="FlightControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.FlightControllerTest]">
+    <testcase name="testViewAllFlight" classname="com.flightapp.controller.FlightControllerTest" time="1.186" displayname="testViewAllFlight()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.FlightControllerTest]/[method:testViewAllFlight()]"/>
+    <testcase name="testViewFlight" classname="com.flightapp.controller.FlightControllerTest" time="0.014" displayname="testViewFlight()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.FlightControllerTest]/[method:testViewFlight()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.controller.BookingControllerTest" time="0.205" displayname="BookingControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]">
+    <testcase name="testCancelBooking" classname="com.flightapp.controller.BookingControllerTest" time="0.182" displayname="testCancelBooking()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testCancelBooking()]"/>
+    <testcase name="testCreateBooking" classname="com.flightapp.controller.BookingControllerTest" time="0.007" displayname="testCreateBooking()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testCreateBooking()]"/>
+    <testcase name="testGetHistory" classname="com.flightapp.controller.BookingControllerTest" time="0.007" displayname="testGetHistory()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testGetHistory()]"/>
+    <testcase name="testGetTicket" classname="com.flightapp.controller.BookingControllerTest" time="0.009" displayname="testGetTicket()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testGetTicket()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.controller.AirlineControllerTest" time="0.214" displayname="AirlineControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]">
+    <testcase name="testRegisterAirline" classname="com.flightapp.controller.AirlineControllerTest" time="0.201" displayname="testRegisterAirline()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]/[method:testRegisterAirline()]"/>
+    <testcase name="testBlock" classname="com.flightapp.controller.AirlineControllerTest" time="0.006" displayname="testBlock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]/[method:testBlock()]"/>
+    <testcase name="testUnblock" classname="com.flightapp.controller.AirlineControllerTest" time="0.007" displayname="testUnblock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.AirlineControllerTest]/[method:testUnblock()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.controller.InventoryControllerTest" time="0.033" displayname="InventoryControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.InventoryControllerTest]">
+    <testcase name="testAddInventory" classname="com.flightapp.controller.InventoryControllerTest" time="0.033" displayname="testAddInventory()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.InventoryControllerTest]/[method:testAddInventory()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.model.TicketTest" time="0.007" displayname="TicketTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.model.TicketTest]">
+    <testcase name="testTicket1" classname="com.flightapp.model.TicketTest" time="0.002" displayname="testTicket1()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.model.TicketTest]/[method:testTicket1()]"/>
+    <testcase name="testTicket2" classname="com.flightapp.model.TicketTest" time="0.001" displayname="testTicket2()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.model.TicketTest]/[method:testTicket2()]"/>
+    <testcase name="testTicket3" classname="com.flightapp.model.TicketTest" time="0.004" displayname="testTicket3()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.model.TicketTest]/[method:testTicket3()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.service.BookingServiceTest" time="0.186" displayname="BookingServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.BookingServiceTest]">
+    <testcase name="testCancelBooking" classname="com.flightapp.service.BookingServiceTest" time="0.179" displayname="testCancelBooking()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.BookingServiceTest]/[method:testCancelBooking()]"/>
+    <testcase name="testGetHistory" classname="com.flightapp.service.BookingServiceTest" time="0.003" displayname="testGetHistory()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.BookingServiceTest]/[method:testGetHistory()]"/>
+    <testcase name="testGetTicket" classname="com.flightapp.service.BookingServiceTest" time="0.003" displayname="testGetTicket()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.BookingServiceTest]/[method:testGetTicket()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.service.FlightServiceTest" time="0.109" displayname="FlightServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.FlightServiceTest]">
+    <testcase name="viewAllFlight" classname="com.flightapp.service.FlightServiceTest" time="0.104" displayname="viewAllFlight()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.FlightServiceTest]/[method:viewAllFlight()]"/>
+    <testcase name="testViewFlight" classname="com.flightapp.service.FlightServiceTest" time="0.005" displayname="testViewFlight()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.FlightServiceTest]/[method:testViewFlight()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.service.InventoryServiceTest" time="0.105" displayname="InventoryServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.InventoryServiceTest]">
+    <testcase name="testAddInventory" classname="com.flightapp.service.InventoryServiceTest" time="0.105" displayname="testAddInventory()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.InventoryServiceTest]/[method:testAddInventory()]"/>
+  </testsuite>
+  <testsuite name="com.flightapp.service.AirlineServiceTest" time="0.013" displayname="AirlineServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]">
+    <testcase name="testToggleBlock" classname="com.flightapp.service.AirlineServiceTest" time="0.004" displayname="testToggleBlock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]/[method:testToggleBlock()]"/>
+    <testcase name="testRegisterAirline" classname="com.flightapp.service.AirlineServiceTest" time="0.006" displayname="testRegisterAirline()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]/[method:testRegisterAirline()]"/>
+    <testcase name="testToggleUnblock" classname="com.flightapp.service.AirlineServiceTest" time="0.003" displayname="testToggleUnblock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]/[method:testToggleUnblock()]"/>
+  </testsuite>
+</testrun>

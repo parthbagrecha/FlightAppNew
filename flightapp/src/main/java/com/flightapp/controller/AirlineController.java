@@ -41,7 +41,7 @@ public class AirlineController {
 
 	@PostMapping(value = "/{status}/{airlineId}")
 	public String toggleBlock(@RequestHeader("Authorization") String token, @PathVariable("status") String status,
-			@PathVariable("airlineId") Integer airlineId){
+			@PathVariable("airlineId") Integer airlineId) {
 		try {
 			if (authService.getAdminValidity(token).getBody().isValid()) {
 				return airlineService.toggleBlock(status, airlineId);

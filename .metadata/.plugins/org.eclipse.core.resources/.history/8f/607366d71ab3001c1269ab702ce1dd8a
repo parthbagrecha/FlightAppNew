@@ -1,0 +1,29 @@
+package com.flightapp.controller;
+
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.flightapp.entity.AirlineInventory;
+import com.flightapp.service.FlightService;
+
+@ExtendWith(MockitoExtension.class)
+public class FlightControllerTest {
+	
+	@Autowired
+	FlightController flightController;
+	
+	@Mock
+	FlightService flightService;
+	
+	void testviewAllFlight() {
+		when(flightService.viewAllFlight()).thenReturn(null);
+		Iterable<AirlineInventory> result = flightController.viewAllFlight();
+		
+	}
+	
+
+}

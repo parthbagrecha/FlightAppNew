@@ -124,4 +124,26 @@ public class AirlineInventoryModel {
 		this.meal = meal;
 	}
 
+	public AirlineInventoryModel(Integer airlineId, String instrument, String fromPlace, String toPlace,
+			LocalDateTime startDateTime, LocalDateTime endDateTime, String scheduleDays, Integer businessClassSeats,
+			Integer nonBusinessClassSeats, Integer rows, Integer cost, String meal) {
+		super();
+		this.airlineId = airlineId;
+		this.instrument = instrument;
+		this.fromPlace = fromPlace;
+		this.toPlace = toPlace;
+		this.startDateTime = startDateTime;
+		this.endDateTime = endDateTime;
+		this.scheduleDays = scheduleDays;
+		this.businessClassSeats = businessClassSeats;
+		this.nonBusinessClassSeats = nonBusinessClassSeats;
+		this.rows = rows;
+		this.cost = cost;
+		this.meal = meal;
+	}
+
+	public AirlineInventoryModel() {
+		super();
+	}
+
 }

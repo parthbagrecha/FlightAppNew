@@ -1,0 +1,32 @@
+package com.flightapp.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.model.BooikingInputModel;
+import com.flightapp.model.PassengerDetails;
+import com.flightapp.service.BookingService;
+
+@ExtendWith(MockitoExtension.class)
+public class BookingControllerTest {
+	
+	@InjectMocks
+	BookingController bookingController;
+	
+	@Mock
+	BookingService bookingService;
+	
+	@Test
+	void testCreateBooking() {
+		PAssenger passenger = new Passenger();
+		List<PassengerDetails> passengerDetails = new ArrayList<PassengerDetails>();
+		BooikingInputModel bookingInput = new BookingInputModel();
+	}
+
+}

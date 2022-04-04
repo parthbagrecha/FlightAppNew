@@ -46,4 +46,21 @@ public class AirlineMaster {
 		this.isBlocked = isBlocked;
 	}
 
+	public AirlineMaster(Integer airlineId, String airlineName, String isBlocked) {
+		super();
+		this.airlineId = airlineId;
+		this.airlineName = airlineName;
+		this.isBlocked = isBlocked;
+	}
+
+	public AirlineMaster(String airlineName, String isBlocked) {
+		super();
+		this.airlineName = airlineName;
+		this.isBlocked = isBlocked;
+	}
+
+	public AirlineMaster() {
+		super();
+	}
+
 }

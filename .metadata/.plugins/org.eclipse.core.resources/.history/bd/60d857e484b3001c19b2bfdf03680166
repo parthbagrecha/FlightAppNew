@@ -1,0 +1,38 @@
+package com.flightapp.model;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import java.time.LocalDateTime;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+@ExtendWith(MockitoExtension.class)
+public class AirlineInventoryModelTest {
+
+//	new AirlineInventoryModel(110001, "Air India", "Mumbai", "Delhi",
+//	ldt, ldt, "Weekdays", 20, 130, 9900, 30, "X")
+
+	@Test
+	void testAirlineInventoryModel1() {
+		LocalDateTime ldt = LocalDateTime.now();
+AirlineInventoryModel aim = new AirlineInventoryModel();
+		aim
+		aim
+		aim
+		aim
+		aim
+		aim
+		aim
+		aim
+		aim
+		aim
+		aim
+		aim
+		
+		assertNotNull(aim);
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package com.flightapp.service;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.entity.Booking;
+import com.flightapp.model.BookingInputModel;
+import com.flightapp.model.PassengerDetails;
+import com.flightapp.model.Ticket;
+import com.flightapp.repository.BookingRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class BookingServiceTest {
+
+	@InjectMocks
+	BookingService bookingService;
+
+	@Mock
+	BookingRepository bookingRepository;
+
+	@Test
+	void testCreateBooking() throws Exception {
+		PassengerDetails passenger = new PassengerDetails("Test", "M", 35, "35A", "X");
+		List<PassengerDetails> passengerDetails = new ArrayList<>();
+		passengerDetails.add(passenger);
+		BookingInputModel bookingInputModel = new BookingInputModel(110001, 1, passengerDetails);
+
+		Booking booking = new Booking();
+
+		when(bookingRepository.save());
+
+		List<Ticket> result = bookingService.createBooking(bookingInputModel, "Test", "Test");
+		assertNotNull(result);
+	}
+
+}

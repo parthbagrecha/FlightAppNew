@@ -191,4 +191,25 @@ public class AirlineInventory {
 		this.meal = meal;
 	}
 
+	public AirlineInventory(Integer inventoryId, Integer airlineId, String airlineName, String fromPlace,
+			String toPlace, LocalDateTime startDateTime, LocalDateTime endDateTime, String scheduleDays,
+			String instrument, Integer businessClassSeats, Integer nonBusinessClassSeats, Integer cost, Integer rows,
+			String meal) {
+		super();
+		this.inventoryId = inventoryId;
+		this.airlineId = airlineId;
+		this.airlineName = airlineName;
+		this.fromPlace = fromPlace;
+		this.toPlace = toPlace;
+		this.startDateTime = startDateTime;
+		this.endDateTime = endDateTime;
+		this.scheduleDays = scheduleDays;
+		this.instrument = instrument;
+		this.businessClassSeats = businessClassSeats;
+		this.nonBusinessClassSeats = nonBusinessClassSeats;
+		this.cost = cost;
+		this.rows = rows;
+		this.meal = meal;
+	}
+
 }

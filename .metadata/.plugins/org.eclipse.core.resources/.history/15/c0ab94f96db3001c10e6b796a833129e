@@ -1,0 +1,45 @@
+package com.flightapp.controller;
+
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import com.flightapp.feignclients.AuthService;
+import com.flightapp.model.AirlineInventoryModel;
+import com.flightapp.model.AuthenticateResponse;
+import com.flightapp.service.InventoryService;
+
+@ExtendWith(MockitoExtension.class)
+public class InventoryControllerTest {
+
+	@InjectMocks
+	InventoryController inventoryController;
+
+	@Mock
+	AuthService authService;
+
+	@Mock
+	InventoryService inventoryService;
+
+	@Test
+	void testAddInventory() {
+		AuthenticateResponse tokenValid = new AuthenticateResponse("Test", true, "token successfully validated");
+		ResponseEntity<AuthenticateResponse> authResponse = new ResponseEntity<AuthenticateResponse>(tokenValid,
+				HttpStatus.OK);
+		
+		AirlineInventoryModel airlineInventoryModel = new AirlineInventoryModel(1100, "Air India", "Mumbai", "Delhi", ldt, ldt, "Weekdays", "AC130",
+				20, 130, 9900, 30, "X");
+
+		when(authService.getValidity("token")).thenReturn(authResponse);
+		
+		Integer result = inventoryService.addInventory(airlineInventoryModel)
+
+	}
+
+}

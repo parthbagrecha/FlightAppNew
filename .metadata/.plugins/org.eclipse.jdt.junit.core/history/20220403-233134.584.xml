@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FlightServiceTest" project="flightapp" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.service.FlightServiceTest" time="0.835" displayname="FlightServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.FlightServiceTest]">
+    <testcase name="viewAllFlight" classname="com.flightapp.service.FlightServiceTest" time="0.798" displayname="viewAllFlight()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.FlightServiceTest]/[method:viewAllFlight()]"/>
+    <testcase name="testViewFlight" classname="com.flightapp.service.FlightServiceTest" time="0.037" displayname="testViewFlight()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.FlightServiceTest]/[method:testViewFlight()]"/>
+  </testsuite>
+</testrun>

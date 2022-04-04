@@ -1,0 +1,29 @@
+package com.flightapp.service;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.model.AirlineInventoryModel;
+import com.flightapp.repository.InventoryRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class InventoryServiceTest {
+
+	@InjectMocks
+	InventoryService inventoryService;
+
+	@Mock
+	InventoryRepository inventoryRepository;
+
+	@Test
+	void testAddInventory() throws Exception {
+
+		AirlineInventoryModel airlineInventoryModel = new AirlineInventoryModel(110001, "Air India", "Mumbai", "Delhi",
+				ldt, ldt, "Weekdays", 20, 130, 9900, 30, "X");
+
+		Integer result = inventoryService.addInventory(airlineInventoryModel);
+	}
+}

@@ -1,0 +1,26 @@
+package com.flightapp.entity;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+@ExtendWith(MockitoExtension.class)
+public class AirlineInventoryTest {
+
+	@Test
+	void testAirlineInventory1() {
+		AirlineInventory airlineInventory = new AirlineInventory();
+
+		assertNotNull(airlineInventory);
+	}
+
+	@Test
+	void testAirlineInventory2() {
+		AirlineInventory airlineInventory = new AirlineInventory();
+
+		assertNotNull(airlineInventory);
+	}
+
+}

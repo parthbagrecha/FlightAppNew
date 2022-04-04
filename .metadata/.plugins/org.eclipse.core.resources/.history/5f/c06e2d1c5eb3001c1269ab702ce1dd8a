@@ -1,0 +1,49 @@
+package com.flightapp.service;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.entity.AirlineMaster;
+import com.flightapp.repository.AirlineRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class AirlineServiceTest {
+	
+	@Mock
+	AirlineRepository airlineRepository;
+	
+	@InjectMocks
+	AirlineService airlineService;
+	
+	@Test
+	void testRegisterAirline() {
+		AirlineMaster airlineMaster = new AirlineMaster("Air India", "N");
+		when(airlineRepository.save(airlineMaster)).thenReturn(airlineMaster);
+		airlineService.registerAirline(airlineMaster);
+		assertNotNull(airlineMaster.getAirlineId());
+	}
+	
+	@Test
+	void testToggleBlock() throws Exception {
+		when(airlineRepository.existsById(1100)).thenReturn(true);
+//		doNothing().when(airlineRepository).updateAirlineMaster(1100, "block");
+		String response = airlineService.toggleBlock("block", 1100);
+		assertThat(response).isNotNull();
+		assertEquals("Airline with id 1100 added", response);
+	}
+	
+	@Test
+	void testToggleUnblock() {
+		
+	}
+
+
+}

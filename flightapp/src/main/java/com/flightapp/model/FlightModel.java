@@ -1,7 +1,6 @@
 package com.flightapp.model;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 public class FlightModel {
 
@@ -30,6 +29,17 @@ public class FlightModel {
 	}
 
 	public void setToPlace(String toPlace) {
+		this.toPlace = toPlace;
+	}
+
+	public FlightModel() {
+		super();
+	}
+
+	public FlightModel(LocalDateTime dateTime, String fromPlace, String toPlace) {
+		super();
+		this.dateTime = dateTime;
+		this.fromPlace = fromPlace;
 		this.toPlace = toPlace;
 	}
 

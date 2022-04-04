@@ -1,6 +1,5 @@
 package com.flightapp.service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,8 +23,8 @@ public class FlightService implements IFlightService {
 
 	@Override
 	public List<AirlineInventory> viewFlight(FlightModel flightModel) throws Exception {
-		if (flightModel.getFromPlace().equals(null)
-				&& (flightModel.getDateTime().equals(null) || flightModel.getToPlace().equals(null))) {
+		if (flightModel.getFromPlace() == null
+				&& (flightModel.getDateTime() == null || flightModel.getToPlace() == null)) {
 			throw new Exception("Please Enter From-Place and either To-Place or Date-Time");
 		}
 		if (!flightModel.getToPlace().trim().isEmpty()) {

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookingControllerTest" project="flightapp" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.controller.BookingControllerTest" time="0.693" displayname="BookingControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]">
+    <testcase name="testCancelBooking" classname="com.flightapp.controller.BookingControllerTest" time="0.672" displayname="testCancelBooking()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testCancelBooking()]"/>
+    <testcase name="testCreateBooking" classname="com.flightapp.controller.BookingControllerTest" time="0.008" displayname="testCreateBooking()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testCreateBooking()]"/>
+    <testcase name="testGetHistory" classname="com.flightapp.controller.BookingControllerTest" time="0.004" displayname="testGetHistory()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testGetHistory()]"/>
+    <testcase name="testGetTicket" classname="com.flightapp.controller.BookingControllerTest" time="0.009" displayname="testGetTicket()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.BookingControllerTest]/[method:testGetTicket()]"/>
+  </testsuite>
+</testrun>

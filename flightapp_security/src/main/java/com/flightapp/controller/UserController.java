@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.flightapp.entity.User;
@@ -26,7 +25,7 @@ public class UserController {
 	@Autowired
 	IAdminService adminService;
 
-	@RequestMapping(value = "/createUser", method = RequestMethod.POST)
+	@PostMapping(value = "/createUser")
 	public String addUser(@RequestBody User newUser) {
 		try {
 			userService.createUser(newUser);
@@ -36,7 +35,7 @@ public class UserController {
 			return e.getMessage();
 		}
 	}
-	
+
 	@GetMapping(value = "/getUser")
 	public User getUser(@RequestHeader("Authorization") final String token) {
 		return userService.getUser(token);

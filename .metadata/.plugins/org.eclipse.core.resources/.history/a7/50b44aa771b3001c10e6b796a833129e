@@ -1,0 +1,26 @@
+package com.flightapp.service;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.model.BookingInputModel;
+import com.flightapp.repository.BookingRepository;
+
+@ExtendWith(MockitoExtension.class)
+public class BookingServiceTest {
+
+	@InjectMocks
+	BookingService bookingService;
+
+	@Mock
+	BookingRepository bookingRepository;
+
+	@Test
+	void testCreateBooking() {
+		BookingInputModel bookingInputModel = new BookingInputModel(110001, 1, null);
+	}
+
+}

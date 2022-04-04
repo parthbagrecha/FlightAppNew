@@ -44,4 +44,16 @@ public class UserModel {
 		this.userPhone = userPhone;
 	}
 
+	public UserModel(String userEmail, String userName, String userPassword, BigInteger userPhone) {
+		super();
+		this.userEmail = userEmail;
+		this.userName = userName;
+		this.userPassword = userPassword;
+		this.userPhone = userPhone;
+	}
+
+	public UserModel() {
+		super();
+	}
+
 }

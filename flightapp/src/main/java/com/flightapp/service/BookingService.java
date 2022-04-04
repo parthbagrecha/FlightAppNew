@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.flightapp.entity.Booking;
 import com.flightapp.exception.RecordNotFoundException;
 import com.flightapp.iservice.IBookingService;
-import com.flightapp.model.BooikingInputModel;
+import com.flightapp.model.BookingInputModel;
 import com.flightapp.model.PassengerDetails;
 import com.flightapp.model.Ticket;
 import com.flightapp.repository.BookingRepository;
@@ -21,7 +21,7 @@ public class BookingService implements IBookingService {
 	BookingRepository bookingRepository;
 
 	@Override
-	public List<Ticket> createBooking(BooikingInputModel bookingInput, String name, String email) throws Exception {
+	public List<Ticket> createBooking(BookingInputModel bookingInput, String name, String email) throws Exception {
 		if (bookingInput.getNoOfSeats() != bookingInput.getPassengerDetails().size()) {
 			throw new Exception("Please enter correct no of Passengers");
 		}

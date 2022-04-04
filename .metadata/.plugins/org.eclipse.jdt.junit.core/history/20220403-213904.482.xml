@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AirlineServiceTest" project="flightapp" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.service.AirlineServiceTest" time="0.81" displayname="AirlineServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]">
+    <testcase name="testToggleBlock" classname="com.flightapp.service.AirlineServiceTest" time="0.793" displayname="testToggleBlock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]/[method:testToggleBlock()]"/>
+    <testcase name="testRegisterAirline" classname="com.flightapp.service.AirlineServiceTest" time="0.007" displayname="testRegisterAirline()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]/[method:testRegisterAirline()]"/>
+    <testcase name="testToggleUnblock" classname="com.flightapp.service.AirlineServiceTest" time="0.01" displayname="testToggleUnblock()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.service.AirlineServiceTest]/[method:testToggleUnblock()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="InventoryControllerTest" project="flightapp" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.controller.InventoryControllerTest" time="0.651" displayname="InventoryControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.InventoryControllerTest]">
+    <testcase name="testAddInventory" classname="com.flightapp.controller.InventoryControllerTest" time="0.651" displayname="testAddInventory()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.controller.InventoryControllerTest]/[method:testAddInventory()]"/>
+  </testsuite>
+</testrun>

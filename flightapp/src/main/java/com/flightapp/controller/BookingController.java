@@ -16,7 +16,7 @@ import com.flightapp.entity.Booking;
 import com.flightapp.exception.InvalidTokenException;
 import com.flightapp.feignclients.AuthService;
 import com.flightapp.iservice.IBookingService;
-import com.flightapp.model.BooikingInputModel;
+import com.flightapp.model.BookingInputModel;
 import com.flightapp.model.Ticket;
 import com.flightapp.model.UserModel;
 
@@ -32,7 +32,7 @@ public class BookingController {
 
 	@PostMapping("/createBooking")
 	public List<Ticket> createBooking(@RequestHeader("Authorization") String token,
-			@RequestBody BooikingInputModel bookingInput) {
+			@RequestBody BookingInputModel bookingInput) {
 		try {
 			if (authService.getValidity(token).getBody().isValid()) {
 				UserModel user = authService.getUser(token);

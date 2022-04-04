@@ -1,0 +1,41 @@
+package com.flightapp.controller;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.flightapp.entity.AirlineInventory;
+import com.flightapp.iservice.IFlightService;
+
+@ExtendWith(MockitoExtension.class)
+public class FlightControllerTest {
+	
+	@InjectMocks
+	FlightController flightController;
+	
+	@Mock
+	IFlightService flightService;
+	
+	@Test
+	void testviewAllFlight() {
+		LocalDateTime ldt = LocalDateTime.now();
+		AirlineInventory ai = new AirlineInventory(1100, "Air India", "Mumbai", "Delhi",ldt,ldt, "Weekdays", "AC130", 20, 130, 9900, 30, "X");
+		List<AirlineInventory> list = new ArrayList<AirlineInventory>();
+		list.add(ai);
+		when(flightService.viewAllFlight()).thenReturn(list);
+		Iterable<AirlineInventory> result = flightController.viewAllFlight();
+		
+		assertNotNull(result);
+	}
+	
+
+}

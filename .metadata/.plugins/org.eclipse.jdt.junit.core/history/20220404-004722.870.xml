@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AirlineInventoryTest" project="flightapp" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.flightapp.entity.AirlineInventoryTest" time="0.681" displayname="AirlineInventoryTest" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.entity.AirlineInventoryTest]">
+    <testcase name="testAirlineInventory1" classname="com.flightapp.entity.AirlineInventoryTest" time="0.673" displayname="testAirlineInventory1()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.entity.AirlineInventoryTest]/[method:testAirlineInventory1()]"/>
+    <testcase name="testAirlineInventory2" classname="com.flightapp.entity.AirlineInventoryTest" time="0.007" displayname="testAirlineInventory2()" uniqueid="[engine:junit-jupiter]/[class:com.flightapp.entity.AirlineInventoryTest]/[method:testAirlineInventory2()]"/>
+  </testsuite>
+</testrun>
